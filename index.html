@@ -4,31 +4,69 @@
 <TITLE>GeomScale homepage</TITLE>
 <META charset = "UTF-8" />
 <LINK rel="icon" href="figures/logo2.png">
+<STYLE>
+#code {
+  font-family : courier, arial;
+  font-size : 20px;
+}
+p.moto {
+  font-family : fantasy, arial;
+  font-size : 25px;
+  color : #2F4F4F;
+  text-align: center;
+}
+div.about {
+  font-family : fantasy, arial;
+  font-size : 1em;
+  width: 50%;
+}
+.row {
+  display: flex;
+}
+.column {
+  flex: 50%;
+  padding: 20px;
+}
+.row2 {
+  display: flex;
+}
+.column2 {
+  flex: 10%;
+  padding: 10px;
+}
+</STYLE>
 </HEAD>
 <BODY BGCOLOR="FFFFFf" LINK="006666" ALINK="8B4513" VLINK="006666">
 <TABLE WIDTH="75%" ALIGN="center">
 <TR>
-<TD>
+<TD style = "font-family: fantasy; font-size: 1em;">
 
 <P style="text-align:center;"><IMG SRC="figures/logo.png" ALT="GeomScale" WIDTH="40%"></P>
 
 <DIV ALIGN="justify">
-<P>Sampling from multidimensional distributions is a fundamental
-operation that plays a crucial role across sciences including modern
-machine learning and data science. An impressive number of important
-problems such as optimization and integration can be efficiently
-solved via sampling.
-</P>
-<P>GeomScale is a research and development project aiming in scalable 
-algorithms to solve problems in these domains.</P>
-<P>Currently, the main library is volesti, a generic open source C++ library, with R and Python 
-interfaces, for sampling and volume computation in high dimensions. Moreover, volesti 
-provides functionality for high-dimensional copula estimation that is useful in modelling financial crises.</P>
+
+<P class="moto">Open-source development of scalable algorithms for geometric statistics</P>
+
+<BR><BR><BR>
+
+<H3>About</H3>
+
+<div class="row">
+  <div class="column">
+      <P>Sampling from multidimensional distributions is a fundamental operation    that plays a crucial role across sciences including modern machine learning and data science. An impressive number of important problems such as optimization and integration can be efficiently solved via sampling.
+      </P>
+      <P>GeomScale is a research and development project aiming in scalable algorithms to solve problems in these domains.</P>
+      <P>Currently, the main library is <span id="code">volesti</span>, a generic open source <span id="code">C++</span> library, with <span id="code">R</span> and <span id="code">Python</span> 
+interfaces, for sampling and volume computation in high dimensions. Moreover, <span id="code">volesti</span> provides functionality for high-dimensional copula estimation that is useful in modelling financial crises.
+       </P>
+  </div>
+  <div class="column">
+    <img src="figures/uniform.png" width="300" alt="uniform" class="float-left" /></a>
+    <img src="figures/boltzmann.png" width="300" alt="boltzmann" class="float-left" /></a>
+  </div>
+</div>
 
 <BR>
-
-<a href="https://github.com/GeomScale"><img src="figures/github.png" width="60" height="60" alt="photo" class="float-left" /></a>
-<a href="https://cran.r-project.org/package=volesti"><img src="figures/Rlogo.png" width="77" height="60" alt="photo" class="float-left" /></a>
 
 <H3>People</H3>
 <UL>
@@ -44,22 +82,40 @@ provides functionality for high-dimensional copula estimation that is useful in 
 <LI><A HREF="http://zaf.zafeirakopoulos.info">Zafeirakis Zafeirakopoulos</A></LI>
 </UL>
 
-<P>Collaborations: <A HREF="http://erga.di.uoa.gr">ErGA laboratory</A>
+<P>Collaborations: <A HREF="http://erga.di.uoa.gr">ErGA lab NKUA</A>, <A HREF="https://team.inria.fr/ouragan">Ouragan INRIA</A>
 </P>
 
+<BR>
+
 <H3>Software</H3>
-<UL>
-<LI><P>Source code: <A HREF="https://github.com/Geomscale">https://github.com/Geomscale</A></P></LI>
-<LI><P>Documentation: <A href="https://github.com/GeomScale/volume_approximation/blob/develop/README.md">Installation and basic use</A>, <A href="https://cran.r-project.org/web/packages/volesti/volesti.pdf">R package manual</A> </P></LI>
-<LI><P>Tutorials: <A HREF="https://vissarion.github.io/tutorials/volesti_R_tutorial">https://vissarion.github.io/tutorials/volesti_R_tutorial</A></P></LI>
-<LI>R package: <A HREF="https://cran.r-project.org/package=volesti">volesti</A></LI>
-</UL>
+<div class="row2">
+  <div class="column2"> 
+    <a href="https://github.com/GeomScale"><img src="figures/github.png" width="60" height="60" alt="photo" class="float-left" /></a></BR>
+  Source code 
+  </div>
+  <div class="column2">
+    <a href="https://cran.r-project.org/package=volesti"><img src="figures/Rlogo.png" width="60" height="60" alt="photo" class="float-left" /></a></BR>
+  R package 
+  </div>
+  <div class="column2">
+    <a href="https://github.com/GeomScale/volume_approximation/blob/develop/README.md"><img src="figures/doc.png" width="77" height="60" alt="photo" class="float-left" /></a></BR>
+    Documentation 
+  </div>
+  <div class="column2">
+    <a href="https://vissarion.github.io/tutorials/volesti_R_tutorial"><img src="figures/tutorial.png" width="77" height="60" alt="photo" class="float-left" /></a></BR>
+    Tutorials 
+  </div>
+</div>
+
+<BR>
 
 <H3>Projects using volesti</H3>
 <UL>
-<LI>P.Z. Dos Martires, Samuel Kolb - <A href="https://arxiv.org/pdf/2001.04566v1.pdf">Monte Carlo Anti-Differentiation for Approximate Weighted Model Integration</A>, 2019</LI>
-<LI>A. Venzke, D.K. Molzahn, S. Chatzivasileiadis - <A href="https://arxiv.org/abs/1910.01794">Efficient Creation of Datasets for Data-Driven Power System Applications</A>, 2019</LI>
+<LI><P>P.Z.D. Martires, Samuel Kolb - <A href="https://arxiv.org/pdf/2001.04566v1.pdf">Monte Carlo Anti-Differentiation for Approximate Weighted Model Integration</A>, 2019</P></LI>
+<LI><P>A. Venzke, D.K. Molzahn, S. Chatzivasileiadis - <A href="https://arxiv.org/abs/1910.01794">Efficient Creation of Datasets for Data-Driven Power System Applications</A>, 2019</P></LI>
 </UL>
+
+<BR>
 
 <H3>Google Summer of Code</H3>
 <P>Geomscale is applying this year to be an organization for GSoC 2020. See this <A href="https://github.com/GeomScale/gsoc2020/wiki">wiki</A> for more details.</P> 
@@ -69,6 +125,8 @@ provides functionality for high-dimensional copula estimation that is useful in 
 <LI><A href="https://panagiotisrep.github.io/gsoc2019/gsoc2019">Sampling Methods for Convex Optimization</A>, 2019</LI>
 <LI><A href="https://tolischal.github.io/GSoC2018">State-of-the-art geometric random walks in R</A>, 2019</LI>
 </UL>
+
+<BR>
 
 <H3>Publications</H3>
 <UL>
