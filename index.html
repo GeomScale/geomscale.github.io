@@ -25,7 +25,7 @@ div.about {
 }
 .column {
   flex: 50%;
-  padding: 30px;
+  padding: 10px;
 }
 .row2 {
   display: flex;
@@ -37,7 +37,7 @@ div.about {
 </STYLE>
 </HEAD>
 <BODY BGCOLOR="FFFFFf" LINK="006666" ALINK="8B4513" VLINK="006666">
-<TABLE WIDTH="75%" ALIGN="center">
+<TABLE WIDTH="60%" ALIGN="center">
 <TR>
 <TD style = "font-family: fantasy; font-size: 1em;">
 
@@ -58,28 +58,29 @@ div.about {
 <P><span id="code">GeomScale</span> currently focuses in scalable algorithms for high-dimensional sampling, integration, convex optimization and their aplications.</P>
 
 <P><span id="code">GeomScale</span> aims in serving as a building block for an international, interdisciplinary and open community in high dimensional geometrical and statistical computing.
+</P>
+<P>The main development is currently performed in <span id="code">volesti</span>, a generic open source <span id="code">C++</span> library, with <span id="code">R</span> and (limited) <span id="code">Python</span> 
+interfaces, for high-dimensional sampling and volume approximation and copula estimation for financial modelling.
+       </P>
   </div>
   <div class="column">
-    <img src="figures/uniform.png" width="300" alt="uniform" class="float-left" /></a>
-    <img src="figures/boltzmann.png" width="300" alt="boltzmann" class="float-left" /></a>
+    <img title="Sampling from boltzmann distribution on a spectahedron with volesti" src="figures/boltzmann.png" width="350" alt="boltzmann" class="float-left" hspace="100" vspace="10"/>
+  </div>  
   </div>
 </div>
 
 <div class="row">
   <div class="column">
-    <img src="figures/crisis.png" width="650" alt="uniform" class="float-left" /></a>
+    <img title="Financial crisis (red), warning periods (yellow), normal periods (blue) computed with volesti" src="figures/crisis.png" width="550" alt="uniform" class="float-left" hspace="20" /></a>
   </div>
   <div class="column">
-     <P>The main development is currently performed in <span id="code">volesti</span>, a generic open source <span id="code">C++</span> library, with <span id="code">R</span> and (limited) <span id="code">Python</span> 
-interfaces, for high-dimensional sampling and volume approximation and copula estimation for financial modelling.
-       </P>
+     
       <P><b>Sampling</b> from multidimensional distributions is a fundamental operation    that plays a crucial role across sciences including modern machine learning and data science. Problems such as optimization and integration can be efficiently solved via sampling.
       </P>
        <P> <b>Volume computation</b> is a fundamental and computationally hard problem, a special case of integration. 
       </P>
-    <P> <span id="code">volesti</span> provides functionality for high-dimensional copula estimation that is useful but not limited to modelling <b>financial crises</b>.
-    </P>
-
+      <P> <span id="code">volesti</span> provides functionality for high-dimensional copula estimation that is useful but not limited to modelling <b>financial crises</b>.
+      </P>
   </div>
 </div>
 
