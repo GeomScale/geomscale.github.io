@@ -15,22 +15,59 @@ p.moto {
   color : #2F4F4F;
   text-align: center;
 }
-div.about {
-  font-family : fantasy, arial;
-  font-size : 1em;
-  width: 50%;
+.column1 {
+  float: left;
+  padding: 00px;
 }
-.row {
-  display: flex;
+.left1 {
+  width: 55%;
 }
-.column {
-  flex: 50%;
+.right1 {
+  width: 40%;
   padding: 10px;
 }
-.row2 {
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Create two unequal columns that floats next to each other */
+.column2 {
+  float: left;
+  padding: 0px;
+}
+.left2 {
+  width: 55%;
+}
+.right2 {
+  width: 35%;
+}
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column3 {
+  float: left;
+  padding: 10px;
+}
+.left3 {
+  width: 20%;
+}
+.right3 {
+  width: 65%;
+  float: left;
+  padding: 30px;
+}
+.row3:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.row4 {
   display: flex;
 }
-.column2 {
+.column4 {
   flex: 10%;
   padding: 10px;
 }
@@ -51,36 +88,45 @@ div.about {
 
 <H3>About</H3>
 
-<div class="row">
-  <div class="column">
-      <P><span id="code">GeomScale</span> is a research and development project that delivers open source code in the intersection of data science, optimization, geometric and statistical computing.</P>
+<div class="row1">
+  <div class="column1 left1">
+    <P><span id="code">GeomScale</span> is a research and development project that delivers open source code in the intersection of data science, optimization, geometric and statistical computing.</P>
          
-<P><span id="code">GeomScale</span> currently focuses in scalable algorithms for high-dimensional sampling, integration, convex optimization and their applications.</P>
+    <P><span id="code">GeomScale</span> currently focuses in scalable algorithms for high-dimensional sampling, integration, convex optimization and their applications.</P>
 
-<P><span id="code">GeomScale</span> aims in serving as a building block for an international, interdisciplinary and open community in high dimensional geometrical and statistical computing.
-</P>
-<P>The main development is currently performed in <span id="code">volesti</span>, a generic open source <span id="code">C++</span> library, with <span id="code">R</span> and (limited) <span id="code">Python</span> 
-interfaces, for high-dimensional sampling and volume approximation and copula estimation for financial modelling.
-       </P>
+    <P><span id="code">GeomScale</span> aims in serving as a building block for an international, interdisciplinary and open community in high dimensional geometrical and statistical computing.</P>
   </div>
-  <div class="column">
-    <img title="Sampling from boltzmann distribution on a spectahedron with volesti" src="figures/boltzmann.png" width="350" alt="boltzmann" class="float-left" hspace="100" vspace="10"/>
-  </div>  
+
+  <div class="column1 right1">
+    <img title="Sampling from boltzmann distribution on a spectahedron with volesti" src="figures/boltzmann.png" width="220" alt="boltzmann" class="float-right" hspace="100" vspace="10"/>
   </div>
 </div>
 
-<div class="row">
-  <div class="column">
-    <img title="Financial crisis (red), warning periods (yellow), normal periods (blue) computed with volesti" src="figures/crisis.png" width="550" alt="uniform" class="float-left" hspace="20" /></a>
+<div class="row2">
+  <div class="column2 left2">
+    <img title="Financial crisis (red), warning periods (yellow), normal periods (blue) computed with volesti" src="figures/crisis.png" width="550" alt="uniform" class="float-left" hspace="20"></a>
   </div>
-  <div class="column">
-     
-      <P><b>Sampling</b> from multidimensional distributions is a fundamental operation    that plays a crucial role across sciences including modern machine learning and data science. Problems such as optimization and integration can be efficiently solved via sampling.
-      </P>
-       <P> <b>Volume computation</b> is a fundamental and computationally hard problem, a special case of integration. 
-      </P>
-      <P> <span id="code">volesti</span> provides functionality for high-dimensional copula estimation that is useful but not limited to modelling <b>financial crises</b>.
-      </P>
+
+  <div class="column2 right2">
+    <P><b>Sampling</b> from multidimensional distributions is a fundamental operation that plays a crucial role across sciences including modern machine learning and data science.</P> 
+    <P>Problems such as <b>convex optimization</b> and <b>integration</b> can be efficiently solved via sampling.</P> 
+    <P><b>Volume</b> computation is a fundamental and computationally hard problem, a special case of integration.</P>
+  </div>
+</div>
+
+<BR>
+
+<H3>Volesti</H3>
+
+<div class="row3">
+  <div class="column3 left3">
+    <img  src="figures/volesti_logo.jpg" alt="uniform" class="float-left" hspace="20"></a>
+  </div>
+
+  <div class="column3 right3">
+    <P>The main development is currently performed in <span id="code"><a = href="https://github.com/GeomScale/volume_approximation">volesti</a></span>, a generic open source <span id="code">C++</span> library, with <span id="code">R</span> and <span id="code">Python</span> 
+interfaces.</P>
+<P> <span id="code">volesti</span> provides functionality for high-dimensional sampling, volume estimation and convex optimization. Moreover, there is support for high-dimensional copula estimation that is useful but not limited to modelling <b>financial crises</b> and analysing metabolic networks in <b>systems biology</b>.</P>
   </div>
 </div>
 
@@ -95,40 +141,43 @@ interfaces, for high-dimensional sampling and volume approximation and copula es
 
 <P>Contributors</P>
 <UL>
+<LI><A HREF="https://alexmanochis.github.io/aboutme/">Alexandros Manochis</A></LI>
 <LI><A HREF="https://pedrozudo.github.io/">Pedro Zuidberg Dos Martires</A></LI>
+<LI><A HREF="http://personal.lse.ac.uk/natura/">Bento Natura</A></LI>
+<LI><A HREF="https://papachristoumarios.github.io">Marios Papachristou</A></LI>
 <LI><A HREF="https://panagiotisrep.github.io/">Panagiotis Repouskos</A></LI>
-<LI><A HREF="http://zaf.zafeirakopoulos.info">Zafeirakis Zafeirakopoulos</A></LI>
+<LI><A HREF="https://hariszaf.github.io">Haris Zafeiropoulos</A></LI>
 </UL>
 
 <P>Collaborations:
 <UL>
-<LI> <A HREF="http://erga.di.uoa.gr">ErGA lab</A> at National and Kapodistrian University of Athens, Greece</LI>
+<LI> <A HREF="http://erga.di.uoa.gr">ErGA lab</A> at National and Kapodistrian University of Athens, Greece (<a href="http://cgi.di.uoa.gr/~emiris/">Ioannis Z. Emiris</a>)</LI>
 <LI> <A HREF="https://team.inria.fr/ouragan">Ouragan team</A> at National Institute for Research in Digital Science and Technology, France</LI>
-<LI> <A HREF="http://symbolic-computation.info">ALCYON lab</A> at Gebze Technical University, Turkey</LI>
+<LI> <A HREF="http://symbolic-computation.info">ALCYON lab</A> at Gebze Technical University, Turkey (<A HREF="http://zaf.zafeirakopoulos.info">Zafeirakis Zafeirakopoulos</A>)</LI>
 </UL>
 </P>
 
 <BR>
 
 <H3>Software</H3>
-<div class="row2">
-  <div class="column2"> 
+<div class="row4">
+  <div class="column4"> 
     <a href="https://github.com/GeomScale"><img src="figures/github.png" width="60" height="60" alt="photo" class="float-left" /></a></BR>
   Source code 
   </div>
-  <div class="column2">
+  <div class="column4">
     <a href="https://cran.r-project.org/package=volesti"><img src="figures/Rlogo.png" width="60" height="60" alt="photo" class="float-left" /></a></BR>
   R package 
   </div>
-  <div class="column2">
+  <div class="column4">
     <a href="https://github.com/GeomScale/volume_approximation/blob/develop/README.md"><img src="figures/doc.png" width="77" height="60" alt="photo" class="float-left" /></a></BR>
     Documentation 
   </div>
-  <div class="column2">
+  <div class="column4">
     <a href="https://vissarion.github.io/tutorials/volesti_tutorial_pydata.html"><img src="figures/tutorial.png" width="77" height="60" alt="photo" class="float-left" /></a></BR>
     Tutorials 
   </div>
-<div class="column2">
+<div class="column4">
     <a href="https://github.com/GeomScale/volume_approximation/blob/develop/CONTRIBUTING.md"><img src="figures/contrib.jpeg" width="77" height="60" alt="photo" class="float-left" /></a></BR>
     Contributing
   </div>
@@ -144,8 +193,14 @@ interfaces, for high-dimensional sampling and volume approximation and copula es
 
 <BR>
 
-<H3>Google Summer of Code</H3>
-<P>GeomScale is a mentoring organization for <A href="https://summerofcode.withgoogle.com/">Google Summer of Code</A> 2020. See this <A href="https://github.com/GeomScale/gsoc2020/wiki">wiki</A> for more details if you want to get involved as a student or mentor.</P> 
+<H3><img src="figures/GSoC.png" width="60" height="60" alt="photo" class="float-left" /> Google Summer of Code</H3>
+<P>GeomScale was accepted and participated in <A href="https://summerofcode.withgoogle.com/archive/2020/organizations/">Google Summer of Code 2020</A> as a mentoring organization. The following projects was succesfully completed.</P> 
+<UL>
+<LI><A href="https://alexmanochis.github.io/GSoC20/">A comparative study of uniform high dimensional samplers</A>.</LI>
+<LI><A href="https://github.com/GeomScale/volume_approximation/pull/93">Optimization and Sum of Squares</A>.</LI>
+<LI><A href="https://papachristoumarios.github.io/2020/07/21/Sampling-from-high-dimensional-truncated-log-concave-densities-with-volesti/">Sampling from High-Dimensional log-concave densities</A>.</LI>
+</UL>
+
 <P>Members of GeomScale has succesfully participated in GSoC in the past with the <A href="https://www.r-project.org/">R-project for statistical computing</A>.</P>
 <UL>
 <LI><A href="https://tolischal.github.io/GSoC2018">Efficient R tools for geometrical statistics</A>, 2018</LI>
@@ -158,13 +213,25 @@ interfaces, for high-dimensional sampling and volume approximation and copula es
 <H3>Dissemination and Public Talks</H3>
 <UL>
 <LI><P>
+H. Zafeiropoulos - 
+<A href="https://global.pydata.org/talks/geometric-and-statistical-methods-in-systems-biology-the-case-of-metabolic-networks">Geometric and statistical methods in systems biology: the case of metabolic networks</A>, PyData Global, 2020. 
+</P></LI>
+<LI><P>
+M. Papachristou - 
+<A href="https://global.pydata.org/talks/sampling-from-truncated-high-dimensional-logconcave-densities-with-volesti-geomscale-project">Sampling from (truncated) high-dimensional logconcave densities with VolEsti</A>, PyData Global, 2020. 
+</P></LI>
+<LI><P>
+A. Chalkis - 
+<A href="https://">Practical volume estimation of zonotopes by a new annealing schedule for cooling convex bodies</A>, International Congress on Mathematical Software, 2020. 
+</P></LI>
+<LI><P>
 V Fisikopoulos - <A href="https://www.slideshare.net/VissarionFisikopoulo/highdimensional-sampling-and-volume-computation"> High Dimensional Sampling and Volume Computation in volesti</A> at
 <A href="https://www.meetup.com/PyData-Piraeus/events/268082162/">PyData Piraeus</A> and 
 <A href="https://dtai.cs.kuleuven.be/seminars/high-dimensional-sampling-and-volume-computation-vissarion-fisikopoulos-uoa">Declarative Languages and Artificial Intelligence research group KULeuven</A>, 2020. 
 </P></LI>
 <LI><P>
 A. Chalkis - 
-<A href="https://">Volesti: an R package for high-dimensional sampling and integration</A>, eRum  Milan 2020 (todo). 
+<A href="https://">Volesti: an R package for high-dimensional sampling and integration</A>, eRum  Milan, 2020. 
 </P></LI>
 <LI><P>
 V. Fisikopoulos - 
@@ -193,9 +260,17 @@ V. Fisikopoulos -
 <H3>Publications</H3>
 <UL>
 <LI><P>
+A. Chalkis, V. Fisikopoulos - 
+<A href="https://arxiv.org/abs/2007.01578">volesti: Volume Approximation and Sampling for Convex Polytopes in R</A>.  
+</P></LI>
+<LI><P>
+A. Chalkis, V. Fisikopoulos, P. Repouskos, E. Tsigaridas - 
+<A href="https://hal.inria.fr/hal-02572792">Sampling from feasible sets of SDPs and volume approximation</A>. SIGSAM Communications in Computer Algebra. ACM, 2020 (Distinguished poster award). 
+</P></LI>
+<LI><P>
 A. Chalkis, I.Z. Emiris, V. Fisikopoulos - 
-<A href="https://arxiv.org/abs/1905.05494">Practical Volume Estimation by a New Annealing Schedule for Cooling Convex Bodies</A>. 
-Under submission, 2019. 
+<A href="https://link.springer.com/chapter/10.1007/978-3-030-52200-1_21">Practical Volume Estimation of Zonotopes by a New Annealing Schedule for Cooling Convex Bodies</A>. 
+Mathematical Software – ICMS 2020. ICMS 2020. Lecture Notes in Computer Science, Springer. 
 </P></LI>
 <LI><P>
 L. Cales, A. Chalkis, I.Z. Emiris, V. Fisikopoulos - 
