@@ -1,0 +1,15 @@
+# /_data/authors.yml
+
+Marios Papachristou:
+  name        : "Marios Papachristou"
+  links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://papachristoumarios.github.io"
+
+Vissarion Fisikopoulos:
+  name        : "Vissarion Fisikopoulos"
+  links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://vissarion.github.io"

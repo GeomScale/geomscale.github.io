@@ -1,0 +1,14 @@
+# main links
+main:
+  - title: "About"
+    url: /about/
+  - title: "Software"
+    url: /software/
+  - title: "People"
+    url: /people/
+  - title: "Talks"
+    url: /talks/
+  - title: "Publications"
+    url: /publications/
+  - title: "Blog"
+    url: /posts/
