@@ -41,7 +41,9 @@ title                    : #"GeomScale"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "GeomScale"
-description              : "An amazing website."
+description              : "GeomScale is a research and development project that delivers open source code
+                            for state-of-the-art algorithms at the intersection of data science, optimization,
+                            geometric, and statistical computing."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : #https://github.com/GeomScale
@@ -100,7 +102,7 @@ og_image                 : # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
+  type                   : Organization
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
 
