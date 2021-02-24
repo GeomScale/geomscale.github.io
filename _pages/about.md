@@ -50,7 +50,7 @@ We work on the development of practical algorithms based on sampling for a
 set of fundamental computational problems such as **convex optimization**,
 **integration** and **volume computation**.
 
-Regarding applications GeomScale project provides efficient geometric algorithms
+Regarding applications GeomScale project provides an efficient geometric algorithms
 for estimating high-dimensional copulas that are useful in **computational finance**,
 in particular financial crisis prediction.
 Moreover, GeomScale hosts a software framework for **analysis of metabolic networks**
