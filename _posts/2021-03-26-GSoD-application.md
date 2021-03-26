@@ -2,7 +2,7 @@
 layout: single
 title: "Create the GeomScale Reference Documentation"
 date: 2021-03-26
-author: Vissarion Fisikopoulos
+author: GeomScale
 author_profile: true
 read_time: true
 comments: true
@@ -13,6 +13,9 @@ hidden: false
 
 
 # Create the GeomScale Reference Documentation
+
+> The GeomScale application for
+[Google Season of Docs 2021](https://developers.google.com/season-of-docs)
 
 ## About your organization
 
@@ -93,8 +96,10 @@ Work that is out-of-scope for this project:
 
 - This project will not create any explanation, tutorials or how-to guides.
 
-We have two strong technical writing candidates for this project, and we estimate that this work will take three months to complete.
-Apostolos Chalkis and Vissarion Fisikopoulos (the  core maintainers of volesti) have committed to supporting the project.
+We have two strong technical writing candidates for this project, and we
+estimate that this work will take three months to complete.
+The two core [contributors of volesti](https://github.com/GeomScale/volume_approximation/graphs/contributors)
+have committed to supporting the project.
 
 ## Measuring your project’s success
 
@@ -158,7 +163,8 @@ Code as mentors or/and as students. Our members have mentored 7 GSoC coding
 projects under `R`-project and Boost `C++` libraries organizations (2017-2019).
 The main software package of GeomScale has been substantially enhanced through
 3 GSoC projects under the mentoring of two of GeomScale’s members, while one
-student of those projects (Apostolos Chalkis) became a GeomScale member and
+student of those projects ([Apostolos Chalkis](https://github.com/TolisChal))
+became a GeomScale member and
 GSoC mentor and admin. Moreover, 4 GSoC projects have enhanced, fixed several
 bugs and developed documentation for Boost `C++` libraries, quoted as
 "one of the most highly regarded and expertly designed `C++` library projects in the world".
