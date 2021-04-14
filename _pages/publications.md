@@ -8,6 +8,8 @@ This is a list of publications related to GeomScale activities.
 
 ## Preprints
 
+- A. Chalkis, V. Fisikopoulos, M. Papachristou, E. Tsigaridas - <A href="https://arxiv.org/pdf/2102.13068.pdf">Truncated Log-concave Sampling with Reflective Hamiltonian Monte Carlo</A>.
+
 - A. Chalkis, V. Fisikopoulos - <A href="https://arxiv.org/abs/2007.01578">volesti: Volume Approximation and Sampling for Convex Polytopes in R</A>.
 
 - A. Chalkis, V. Fisikopoulos, E. Tsigaridas, H. Zafeiropoulos - <A href="https://arxiv.org/pdf/2012.05503.pdf">Geometric algorithms for sampling the flux space ofmetabolic networks</A>.
