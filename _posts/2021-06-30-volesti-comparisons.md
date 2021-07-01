@@ -51,7 +51,7 @@ cat(min(coda::effectiveSize(t(samples1))) / time1[3],
 
 And the output of this script is,
 
-```
+```R
 0.02818878 74.18608
 ```
 
@@ -64,21 +64,10 @@ This means that the performance of *volesti* is ~2500 times faster than the perf
 In many Bayesian models the posterior distribution is a multivariate Gaussian distribution restricted to a specific domain. We illustrate the efficiency of *volesti* for the case of the truncation being the canonical simplex,
 
 <center>
-$$\Delta^n =\{ x\in\R^n\ |\ x_i\geq 0,\ \sum_ix_i=1 \}$$
-<center>
+$$\Delta^n =\{ x\in\mathbb{R}^n\ |\ x_i\geq 0,\ \sum_ix_i=1 \}.$$
+</center>
 
 This case is of special interest. This situation typically occurs whenever the unknown parameters can be interpreted as fractions or probabilities. Thus, it appears in many important applications; for more details you can read this [paper](https://ieeexplore.ieee.org/document/6884588).
-
-The probability density function we are going to sample from in the following example is,
-
-<center>
-$$f(x|\mu,\Sigma) \propto  \left\{
-\begin{array}{ll}
-      exp[-\frac{1}{2}(x-\mu)^T\Sigma(x-\mu)],  & \mbox{ if } x\in\Delta^n ,\\
-      0, & \mbox{otherwise.}\\
-\end{array} 
-\right.  $$
-<center>
 
 In the following script we generate a random 100-dimensional covariance, we apply the necessary linear transformations and use *volesti*, *tmg* and *restrictedMVN* for sampling. 
 
@@ -117,7 +106,7 @@ cat(min(coda::effectiveSize(t(samples1))) / time1[3],
 
 And the output of this script is,
 
-```
+```R
 30.3589 3.936369 
 ```
 
@@ -152,7 +141,7 @@ time1 = system.time({geom_values = geometry::convhulln(P@V, options = 'FA')})
 
 and then, we have a run-time error,,
 
-```
+```R
 QH6082 qhull error (qh_memalloc): insufficient memory to allocate 1329542232 bytes
 ```
 
@@ -167,7 +156,7 @@ cat(time2[3], vol2)
 
 The output is,
 
-```
+```R
 23.888 2.673747398e-07
 ```
 
@@ -181,13 +170,15 @@ On the other hand *volesti* can be used to approximate the value of such an inte
 
 <center>
 $$I = \int_P f(x)dx .$$
-<center>
+</center>
+
 
 Then sample N uniformly distributed points from P and,
 
 <center>
-$$I\approx \vol(P)\frac{1}{N}\sum_{i=1}^N f(x_i) .$$
-<center>
+$$I \approx vol(P) (1/N) \sum_{i} f(x_i).$$
+</center>
+
 
 The following script generates a polytope for dimension d = 5, 10, 15, 20 and defines a function f. Then computes the exact value of the integral of f over each polytope.  In the sequel it approximates that integral by using *volesti*. 
 
@@ -220,7 +211,7 @@ for (d in seq(from = 5, to = 20, by = 5)) {
 
 The output is,
 
-```
+```R
 5   0.02738404    0.02446581    0.1065667   0.023    3.983 
 10  3.224286e-06  3.204522e-06  0.00612976  3.562    11.95 
 15  4.504834e-11  4.867341e-11  0.08047068  471.479  33.256 
