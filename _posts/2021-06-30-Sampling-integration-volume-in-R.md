@@ -309,3 +309,17 @@ Especially in the cases where the exact algorithms halt
 estimate the desired quantity. The reasons behind this success is the efficient
 geometric random walks implemented in `volesti` and the fast
 randomized approximation algorithms for volume computation.
+
+## Computational details
+
+The results in this blog were obtained using `R 3.4.4` and `R 3.6.3` and `volesti 1.1.2`.
+The versions of the imported by `volesti` packages are `stats 3.4.4` and `methods 3.4.4`; of the linked
+by `volesti` packages, `Rcpp 1.0.3`, `BH 1.69.0.1`, `RcppEigen 0.3.3.7.0`, and the suggested package
+`testthat 2.0.1`.
+For comparison with `volesti` and plots, `geometry 0.4.5`, `hitandrun 0.5.5`,
+`SimplicialCubature 1.2`, `ggplot2 3.1.0`,
+`plotly 4.8.0`, `rgl 0.100.50`, `coda 0.19.4`.
+All packages used are available from [CRAN](http://CRAN.R-project.org).
+
+All computations were performed on a PC with
+`Intel Pentium(R) CPU G4400 @ 3.30GHz x 2 CPU, 16GB RAM`.
