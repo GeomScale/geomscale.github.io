@@ -82,7 +82,7 @@ shows that the performance of `volesti` is ~2500 times faster than `hitandrun`.
 
 The following R script generates a random polytope for each dimension and samples 10000 points (walk length = 5) with both packages.   
 
-```{r}
+```R
 for (d in seq(from = 10, to = 100, by = 10)) {
   
   P = gen_cube(d, 'H')
