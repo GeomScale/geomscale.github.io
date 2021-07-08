@@ -128,7 +128,7 @@ details examples you can read this [paper](https://ieeexplore.ieee.org/document/
 
 In our example we first generate a random 100-dimensional positive definite matrix. 
 Then, we sample from the multivariate Gaussian distribution with that covariance 
-matrix and mode on the center of mass of $$Delta^n$$. To achieve this goal we first
+matrix and mode on the center of mass of $$\Delta^n$$. To achieve this goal we first
 apply all the necessary linear transformations to both the probability density function
 and the canonical simplex to result to a standard Gaussian restricted to a full dimensional
 general simplex. Last, we sample from the latter distribution and we apply the inverse
