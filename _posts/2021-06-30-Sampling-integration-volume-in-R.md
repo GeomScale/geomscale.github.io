@@ -80,12 +80,45 @@ The output of the above script,
 
 shows that the performance of `volesti` is ~2500 times faster than `hitandrun`.
 
+The following R script generates a random polytope for each dimension and samples 10000 points (walk length = 5) with both packages.   
+
+```{r}
+for (d in seq(from = 10, to = 100, by = 10)) {
+  
+  P = gen_cube(d, 'H')
+  tim = system.time({ sample_points(P, n = 10000, random_walk = list(
+      "walk" = "RDHR", "walk_length"=5)) })
+  
+  constr <- list(constr = P$A, dir=rep('<=', 2*d), rhs=P$b)
+  tim = system.time({ hitandrun::hitandrun(constr, n.samples = 10000, thin=5) })
+}
+```
+The following Table reports the run-times.  
+
+| dimension | volesti time | hitandrun time |
+| --------- | ------------ | -------------- |
+| 10        | 0.017        | 0.102          |
+| 20        | 0.024        | 0.157          |
+| 30        | 0.031        | 0.593          |
+| 40        | 0.043        | 1.471          |
+| 50        | 0.055        | 3.311          |
+| 60        | 0.069        | 6.460          |
+| 70        | 0.089        | 11.481         |
+| 80        | 0.108        | 19.056         |
+| 90        | 0.132        | 33.651         |
+| 100       | 0.156        | 50.482         |
+
+The following figure illustrates the asymptotic in the dimension difference in run-time between `volesti` and `hitandrun`.  
+
+![ratio_times](https://user-images.githubusercontent.com/29889291/77155777-b9a5fd00-6aa6-11ea-90d9-8e4602ffe5c8.png)
+
 
 
 ## Comparison with  restrictedMVN and tmg
 
 In many Bayesian models the posterior distribution is a multivariate Gaussian
-distribution restricted to a specific domain.
+distribution restricted to a specific domain. For more details on Bayesian inference you can read the [Wikipedia page](https://en.wikipedia.org/wiki/Bayesian_statistics).
+
 We illustrate the efficiency of `volesti` for the case of the truncation being the canonical simplex,
 
 <center>
@@ -97,9 +130,13 @@ the unknown parameters can be interpreted as fractions or probabilities.
 Thus, it appears naturally in many important
 [applications](https://ieeexplore.ieee.org/document/6884588).
 
-In our example we first generate a random 100-dimensional covariance matrix and
-apply all the necessary linear transformations to construct a full dimensional
-polytope.
+In our example we first generate a random 100-dimensional positive definite matrix. 
+Then, we sample from the multivariate Gaussian distribution with that covariance
+matrix and mode on the center of the canonical simplex. To achieve this goal we first 
+apply all the necessary linear transformations to both the probability density function and the
+canonical simplex. Last,  we sample from the standard Gaussian distribution restricted to 
+the computed full dimensional simplex and we apply the inverse transformations to obtain
+a sample in the initial space.
 
 ```R
 d = 100
@@ -118,8 +155,7 @@ P = Hpolytope(A=A, b=as.numeric(b)) #new truncation
 ```
 
 
-Then we use `volesti`, `tmg` and `restrictedMVN` to sample from the polytope
-following a target Gaussian distribution.
+Now we use `volesti`, `tmg` and `restrictedMVN` to sample,
 
 ```R
 time1 = system.time({samples1 = sample_points(P, n = 100000, random_walk = 
@@ -145,7 +181,14 @@ the output of the script,
 30.3589 3.936369 
 ```
 
-allow us to conclude that `volesti` is one order of magnitude faster than
+Now we can apply the inverse transformation,
+
+```R
+samples_initial_space = N %*% samples1 + 
+   kronecker(matrix(1, 1, 100000), matrix(shift, ncol = 1))
+```
+
+Allow us to conclude that `volesti` is one order of magnitude faster than
 `restrictedMVN` for computing a sample of similar quality.
 Unfortunately, `tmg` failed to terminate in our setup.
 
