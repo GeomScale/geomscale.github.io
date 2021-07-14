@@ -35,6 +35,23 @@ In particular, we will compare volesti with:
 4. [`geometry`](https://cran.r-project.org/package=geometry), the R interface of C++ library *qhull*. It uses a deterministic algorithm to compute the volume of a convex polytope.
 5. [`SimplicialCubature`](https://cran.r-project.org/package=SimplicialCubature), a package to integrate functions over m-dimensional simplices in n-dimensional Euclidean space.
 
+To run the following scripts we will need to import the following R packages,
+
+```R
+library(volesti)
+library(hitandrun)
+library(geometry)
+library(SimplicialCubature)
+library(ggplot2)
+library(plotly) 
+library(rgl)
+library(coda)
+library(Rfast)
+library(pracma)
+```
+
+Note that we use R 3.6.3 throughout the blog post.
+
 ## Comparison with hitandrun
 
 Uniform sampling from a convex polytope is of special interest in several applications.
