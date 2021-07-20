@@ -4,9 +4,8 @@ permalink: /talks/
 
 # Dissemination and Public Talks
 
-- H. Zafeiropoulos - <A href="https://global.pydata.org/talks/166">Geometric and statistical methods
-in systems biology: the case of metabolic networks</A>, PyData Global, 2020.
-
+- H. Zafeiropoulos - <A href="https://docs.google.com/presentation/d/1ibXSac0_bQR2n6myYCvIac5M5V0JwLIEzPrhsbSTb20">Geometric and statistical methods in systems biology: the case of metabolic networks</A>, PyData Global, 2020. 
+(<A href="https://www.youtube.com/watch?v=zg8KFZ_LbHM&t=1s">video</A>)
 
 - M. Papachristou - <A href="https://global.pydata.org/talks/144">Sampling from (truncated)
 high-dimensional logconcave densities with VolEsti</A>, PyData Global, 2020.
