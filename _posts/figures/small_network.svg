@@ -1,0 +1,1402 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1">
+      <path
+         d="M0 0 L800 0 L800 800 L0 800 L0 0 Z"
+         id="path648" />
+    </clipPath>
+  </defs>
+  <g
+     id="layer1">
+    <g
+       style="font-style:normal;font-weight:normal;font-size:12px;font-family:Dialog;color-interpolation:auto;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto"
+       id="g1269"
+       transform="matrix(0.35328365,0,0,0.4391416,-47.253738,-40.716652)">
+      <g
+         id="g1054">
+        <defs
+           id="defs1">
+          <clipPath
+             clipPathUnits="userSpaceOnUse"
+             id="clipPath1064">
+            <path
+               d="M 0,0 H 800 V 800 H 0 Z"
+               id="path1062" />
+          </clipPath>
+        </defs>
+        <g
+           style="fill:#ffffff;stroke:#ffffff;text-rendering:optimizeLegibility"
+           id="g658">
+          <rect
+             x="0"
+             y="0"
+             width="800"
+             style="stroke:none"
+             height="800"
+             clip-path="url(#clipPath1)"
+             id="rect652" />
+          <rect
+             x="0"
+             y="0"
+             width="800"
+             style="stroke:none"
+             height="800"
+             clip-path="url(#clipPath1)"
+             id="rect654" />
+          <polygon
+             style="fill:#f7f7f7;stroke:none"
+             points="153,520 148,515 148,456 153,451 356,451 361,456 361,515 356,520 "
+             clip-path="url(#clipPath1)"
+             id="polygon656" />
+        </g>
+        <g
+           style="stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;text-rendering:optimizeLegibility"
+           id="g666">
+          <polygon
+             style="fill:none"
+             points="153,520 148,515 148,456 153,451 356,451 361,456 361,515 356,520 "
+             clip-path="url(#clipPath1)"
+             id="polygon660" />
+          <text
+             x="246"
+             y="513"
+             style="stroke:none;stroke-width:1;stroke-linejoin:bevel;text-rendering:geometricPrecision"
+             xml:space="preserve"
+             clip-path="url(#clipPath1)"
+             id="text662">s</text>
+          <text
+             x="253"
+             y="513"
+             style="stroke:none;stroke-width:1;stroke-linejoin:bevel;text-rendering:geometricPrecision"
+             xml:space="preserve"
+             clip-path="url(#clipPath1)"
+             id="text664">3</text>
+        </g>
+        <g
+           style="fill:#f7f7f7;stroke:#f7f7f7;stroke-linecap:butt;stroke-linejoin:bevel;text-rendering:geometricPrecision"
+           id="g670">
+          <polygon
+             style="stroke:none"
+             points="192,321 187,316 187,157 192,152 281,152 286,157 286,316 281,321 "
+             clip-path="url(#clipPath1)"
+             id="polygon668" />
+        </g>
+        <g
+           style="stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;text-rendering:geometricPrecision"
+           id="g678">
+          <polygon
+             style="fill:none"
+             points="192,321 187,316 187,157 192,152 281,152 286,157 286,316 281,321 "
+             clip-path="url(#clipPath1)"
+             id="polygon672" />
+          <text
+             x="228"
+             y="314"
+             style="stroke:none;stroke-width:1;stroke-linejoin:bevel"
+             xml:space="preserve"
+             clip-path="url(#clipPath1)"
+             id="text674">s</text>
+          <text
+             x="235"
+             y="314"
+             style="stroke:none;stroke-width:1;stroke-linejoin:bevel"
+             xml:space="preserve"
+             clip-path="url(#clipPath1)"
+             id="text676">8</text>
+        </g>
+        <g
+           style="fill:#f7f7f7;stroke:#f7f7f7;stroke-linecap:butt;stroke-linejoin:bevel;text-rendering:geometricPrecision"
+           id="g682">
+          <polygon
+             style="stroke:none"
+             points="348,728 343,723 343,614 348,609 444,609 449,614 449,723 444,728 "
+             clip-path="url(#clipPath1)"
+             id="polygon680" />
+        </g>
+        <g
+           style="stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;text-rendering:geometricPrecision"
+           id="g692">
+          <polygon
+             style="fill:none"
+             points="348,728 343,723 343,614 348,609 444,609 449,614 449,723 444,728 "
+             clip-path="url(#clipPath1)"
+             id="polygon684" />
+          <text
+             x="383"
+             y="721"
+             style="stroke:none;stroke-width:1;stroke-linejoin:bevel"
+             xml:space="preserve"
+             clip-path="url(#clipPath1)"
+             id="text686">s</text>
+          <text
+             x="390"
+             y="721"
+             style="stroke:none;stroke-width:1;stroke-linejoin:bevel"
+             xml:space="preserve"
+             clip-path="url(#clipPath1)"
+             id="text688">1</text>
+          <text
+             x="398"
+             y="721"
+             style="stroke:none;stroke-width:1;stroke-linejoin:bevel"
+             xml:space="preserve"
+             clip-path="url(#clipPath1)"
+             id="text690">3</text>
+        </g>
+        <g
+           style="fill:#f7f7f7;stroke:#f7f7f7;stroke-linecap:butt;stroke-linejoin:bevel;text-rendering:geometricPrecision"
+           id="g696">
+          <polygon
+             style="stroke:none"
+             points="519,552 514,547 514,443 519,438 609,438 614,443 614,547 609,552 "
+             clip-path="url(#clipPath1)"
+             id="polygon694" />
+        </g>
+        <g
+           style="stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;text-rendering:geometricPrecision"
+           id="g706">
+          <polygon
+             style="fill:none"
+             points="519,552 514,547 514,443 519,438 609,438 614,443 614,547 609,552 "
+             clip-path="url(#clipPath1)"
+             id="polygon698" />
+          <text
+             x="551"
+             y="545"
+             style="stroke:none;stroke-width:1;stroke-linejoin:bevel"
+             xml:space="preserve"
+             clip-path="url(#clipPath1)"
+             id="text700">s</text>
+          <text
+             x="558"
+             y="545"
+             style="stroke:none;stroke-width:1;stroke-linejoin:bevel"
+             xml:space="preserve"
+             clip-path="url(#clipPath1)"
+             id="text702">2</text>
+          <text
+             x="566"
+             y="545"
+             style="stroke:none;stroke-width:1;stroke-linejoin:bevel"
+             xml:space="preserve"
+             clip-path="url(#clipPath1)"
+             id="text704">3</text>
+        </g>
+        <g
+           style="fill:#f7f7f7;stroke:#f7f7f7;stroke-linecap:butt;stroke-linejoin:bevel;text-rendering:geometricPrecision"
+           id="g710">
+          <polygon
+             style="stroke:none"
+             points="616,365 611,360 611,250 616,245 706,245 711,250 711,360 706,365 "
+             clip-path="url(#clipPath1)"
+             id="polygon708" />
+        </g>
+        <g
+           style="stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;text-rendering:geometricPrecision"
+           id="g720">
+          <polygon
+             style="fill:none"
+             points="616,365 611,360 611,250 616,245 706,245 711,250 711,360 706,365 "
+             clip-path="url(#clipPath1)"
+             id="polygon712" />
+          <text
+             x="648"
+             y="358"
+             style="stroke:none;stroke-width:1;stroke-linejoin:bevel"
+             xml:space="preserve"
+             clip-path="url(#clipPath1)"
+             id="text714">s</text>
+          <text
+             x="655"
+             y="358"
+             style="stroke:none;stroke-width:1;stroke-linejoin:bevel"
+             xml:space="preserve"
+             clip-path="url(#clipPath1)"
+             id="text716">3</text>
+          <text
+             x="663"
+             y="358"
+             style="stroke:none;stroke-width:1;stroke-linejoin:bevel"
+             xml:space="preserve"
+             clip-path="url(#clipPath1)"
+             id="text718">8</text>
+        </g>
+        <g
+           style="fill:#ccffcc;stroke:#ccffcc;stroke-linecap:butt;stroke-linejoin:bevel;text-rendering:geometricPrecision"
+           id="g858">
+          <rect
+             x="139"
+             y="611"
+             width="80"
+             style="stroke:none"
+             rx="5"
+             ry="5"
+             height="40"
+             clip-path="url(#clipPath1)"
+             id="rect722" />
+          <rect
+             x="139"
+             y="611"
+             width="80"
+             style="fill:none;stroke:#000000;stroke-linejoin:round"
+             rx="5"
+             ry="5"
+             height="40"
+             clip-path="url(#clipPath1)"
+             id="rect724" />
+          <text
+             x="155"
+             y="638"
+             style="font-size:20px;fill:#000000;stroke:none"
+             xml:space="preserve"
+             clip-path="url(#clipPath1)"
+             id="text726">g</text>
+          <text
+             x="168"
+             y="638"
+             style="font-size:20px;fill:#000000;stroke:none"
+             xml:space="preserve"
+             clip-path="url(#clipPath1)"
+             id="text728">m</text>
+          <text
+             x="188"
+             y="638"
+             style="font-size:20px;fill:#000000;stroke:none"
+             xml:space="preserve"
+             clip-path="url(#clipPath1)"
+             id="text730">p</text>
+          <rect
+             x="162"
+             y="464"
+             width="80"
+             style="stroke:none"
+             rx="5"
+             ry="5"
+             height="40"
+             clip-path="url(#clipPath1)"
+             id="rect732" />
+          <rect
+             x="162"
+             y="464"
+             width="80"
+             style="fill:none;stroke:#000000;stroke-linejoin:round"
+             rx="5"
+             ry="5"
+             height="40"
+             clip-path="url(#clipPath1)"
+             id="rect734" />
+          <text
+             x="181"
+             y="491"
+             style="font-size:20px;fill:#000000;stroke:none"
+             xml:space="preserve"
+             clip-path="url(#clipPath1)"
+             id="text736">g</text>
+          <text
+             x="194"
+             y="491"
+             style="font-size:20px;fill:#000000;stroke:none"
+             xml:space="preserve"
+             clip-path="url(#clipPath1)"
+             id="text738">d</text>
+          <text
+             x="207"
+             y="491"
+             style="font-size:20px;fill:#000000;stroke:none"
+             xml:space="preserve"
+             clip-path="url(#clipPath1)"
+             id="text740">p</text>
+          <rect
+             x="263"
+             y="463"
+             width="80"
+             style="stroke:none"
+             rx="5"
+             ry="5"
+             height="40"
+             clip-path="url(#clipPath1)"
+             id="rect742" />
+          <rect
+             x="263"
+             y="463"
+             width="80"
+             style="fill:none;stroke:#000000;stroke-linejoin:round"
+             rx="5"
+             ry="5"
+             height="40"
+             clip-path="url(#clipPath1)"
+             id="rect744" />
+          <text
+             x="283"
+             y="490"
+             style="font-size:20px;fill:#000000;stroke:none"
+             xml:space="preserve"
+             clip-path="url(#clipPath1)"
+             id="text746">a</text>
+          <text
+             x="295"
+             y="490"
+             style="font-size:20px;fill:#000000;stroke:none"
+             xml:space="preserve"
+             clip-path="url(#clipPath1)"
+             id="text748">d</text>
+          <text
+             x="308"
+             y="490"
+             style="font-size:20px;fill:#000000;stroke:none"
+             xml:space="preserve"
+             clip-path="url(#clipPath1)"
+             id="text750">p</text>
+          <rect
+             x="197"
+             y="214"
+             width="80"
+             style="stroke:none"
+             rx="5"
+             ry="5"
+             height="40"
+             clip-path="url(#clipPath1)"
+             id="rect752" />
+          <rect
+             x="197"
+             y="214"
+             width="80"
+             style="fill:none;stroke:#000000;stroke-linejoin:round"
+             rx="5"
+             ry="5"
+             height="40"
+             clip-path="url(#clipPath1)"
+             id="rect754" />
+          <text
+             x="210"
+             y="241"
+             style="font-size:20px;fill:#000000;stroke:none"
+             xml:space="preserve"
+             clip-path="url(#clipPath1)"
+             id="text756">d</text>
+          <text
+             x="223"
+             y="241"
+             style="font-size:20px;fill:#000000;stroke:none"
+             xml:space="preserve"
+             clip-path="url(#clipPath1)"
+             id="text758">g</text>
+          <text
+             x="236"
+             y="241"
+             style="font-size:20px;fill:#000000;stroke:none"
+             xml:space="preserve"
+             clip-path="url(#clipPath1)"
+             id="text760">d</text>
+          <text
+             x="249"
+             y="241"
+             style="font-size:20px;fill:#000000;stroke:none"
+             xml:space="preserve"
+             clip-path="url(#clipPath1)"
+             id="text762">p</text>
+          <rect
+             x="197"
+             y="274"
+             width="80"
+             style="stroke:none"
+             rx="5"
+             ry="5"
+             height="40"
+             clip-path="url(#clipPath1)"
+             id="rect764" />
+          <rect
+             x="197"
+             y="274"
+             width="80"
+             style="fill:none;stroke:#000000;stroke-linejoin:round"
+             rx="5"
+             ry="5"
+             height="40"
+             clip-path="url(#clipPath1)"
+             id="rect766" />
+          <text
+             x="217"
+             y="301"
+             style="font-size:20px;fill:#000000;stroke:none"
+             xml:space="preserve"
+             clip-path="url(#clipPath1)"
+             id="text768">h</text>
+          <text
+             x="230"
+             y="301"
+             style="font-size:20px;fill:#000000;stroke:none"
+             xml:space="preserve"
+             clip-path="url(#clipPath1)"
+             id="text770">2</text>
+          <text
+             x="243"
+             y="301"
+             style="font-size:20px;fill:#000000;stroke:none"
+             xml:space="preserve"
+             clip-path="url(#clipPath1)"
+             id="text772">o</text>
+          <rect
+             x="403"
+             y="338"
+             width="80"
+             style="stroke:none"
+             rx="5"
+             ry="5"
+             height="40"
+             clip-path="url(#clipPath1)"
+             id="rect774" />
+          <rect
+             x="403"
+             y="338"
+             width="80"
+             style="fill:none;stroke:#000000;stroke-linejoin:round"
+             rx="5"
+             ry="5"
+             height="40"
+             clip-path="url(#clipPath1)"
+             id="rect776" />
+          <text
+             x="417"
+             y="365"
+             style="font-size:20px;fill:#000000;stroke:none"
+             xml:space="preserve"
+             clip-path="url(#clipPath1)"
+             id="text778">t</text>
+          <text
+             x="425"
+             y="365"
+             style="font-size:20px;fill:#000000;stroke:none"
+             xml:space="preserve"
+             clip-path="url(#clipPath1)"
+             id="text780">r</text>
+          <text
+             x="433"
+             y="365"
+             style="font-size:20px;fill:#000000;stroke:none"
+             xml:space="preserve"
+             clip-path="url(#clipPath1)"
+             id="text782">d</text>
+          <text
+             x="446"
+             y="365"
+             style="font-size:20px;fill:#000000;stroke:none"
+             xml:space="preserve"
+             clip-path="url(#clipPath1)"
+             id="text784">r</text>
+          <text
+             x="454"
+             y="365"
+             style="font-size:20px;fill:#000000;stroke:none"
+             xml:space="preserve"
+             clip-path="url(#clipPath1)"
+             id="text786">d</text>
+          <rect
+             x="196"
+             y="158"
+             width="80"
+             style="stroke:none"
+             rx="5"
+             ry="5"
+             height="40"
+             clip-path="url(#clipPath1)"
+             id="rect788" />
+          <rect
+             x="196"
+             y="158"
+             width="80"
+             style="fill:none;stroke:#000000;stroke-linejoin:round"
+             rx="5"
+             ry="5"
+             height="40"
+             clip-path="url(#clipPath1)"
+             id="rect790" />
+          <text
+             x="209"
+             y="185"
+             style="font-size:20px;fill:#000000;stroke:none"
+             xml:space="preserve"
+             clip-path="url(#clipPath1)"
+             id="text792">t</text>
+          <text
+             x="217"
+             y="185"
+             style="font-size:20px;fill:#000000;stroke:none"
+             xml:space="preserve"
+             clip-path="url(#clipPath1)"
+             id="text794">r</text>
+          <text
+             x="225"
+             y="185"
+             style="font-size:20px;fill:#000000;stroke:none"
+             xml:space="preserve"
+             clip-path="url(#clipPath1)"
+             id="text796">d</text>
+          <text
+             x="238"
+             y="185"
+             style="font-size:20px;fill:#000000;stroke:none"
+             xml:space="preserve"
+             clip-path="url(#clipPath1)"
+             id="text798">o</text>
+          <text
+             x="250"
+             y="185"
+             style="font-size:20px;fill:#000000;stroke:none"
+             xml:space="preserve"
+             clip-path="url(#clipPath1)"
+             id="text800">x</text>
+          <rect
+             x="356"
+             y="617"
+             width="80"
+             style="stroke:none"
+             rx="5"
+             ry="5"
+             height="40"
+             clip-path="url(#clipPath1)"
+             id="rect802" />
+          <rect
+             x="356"
+             y="617"
+             width="80"
+             style="fill:none;stroke:#000000;stroke-linejoin:round"
+             rx="5"
+             ry="5"
+             height="40"
+             clip-path="url(#clipPath1)"
+             id="rect804" />
+          <text
+             x="378"
+             y="644"
+             style="font-size:20px;fill:#000000;stroke:none"
+             xml:space="preserve"
+             clip-path="url(#clipPath1)"
+             id="text806">a</text>
+          <text
+             x="390"
+             y="644"
+             style="font-size:20px;fill:#000000;stroke:none"
+             xml:space="preserve"
+             clip-path="url(#clipPath1)"
+             id="text808">t</text>
+          <text
+             x="398"
+             y="644"
+             style="font-size:20px;fill:#000000;stroke:none"
+             xml:space="preserve"
+             clip-path="url(#clipPath1)"
+             id="text810">p</text>
+          <rect
+             x="358"
+             y="680"
+             width="80"
+             style="stroke:none"
+             rx="5"
+             ry="5"
+             height="40"
+             clip-path="url(#clipPath1)"
+             id="rect812" />
+          <rect
+             x="358"
+             y="680"
+             width="80"
+             style="fill:none;stroke:#000000;stroke-linejoin:round"
+             rx="5"
+             ry="5"
+             height="40"
+             clip-path="url(#clipPath1)"
+             id="rect814" />
+          <text
+             x="381"
+             y="707"
+             style="font-size:20px;fill:#000000;stroke:none"
+             xml:space="preserve"
+             clip-path="url(#clipPath1)"
+             id="text816">p</text>
+          <text
+             x="394"
+             y="707"
+             style="font-size:20px;fill:#000000;stroke:none"
+             xml:space="preserve"
+             clip-path="url(#clipPath1)"
+             id="text818">y</text>
+          <text
+             x="405"
+             y="707"
+             style="font-size:20px;fill:#000000;stroke:none"
+             xml:space="preserve"
+             clip-path="url(#clipPath1)"
+             id="text820">r</text>
+          <rect
+             x="523"
+             y="446"
+             width="80"
+             style="stroke:none"
+             rx="5"
+             ry="5"
+             height="40"
+             clip-path="url(#clipPath1)"
+             id="rect822" />
+          <rect
+             x="523"
+             y="446"
+             width="80"
+             style="fill:none;stroke:#000000;stroke-linejoin:round"
+             rx="5"
+             ry="5"
+             height="40"
+             clip-path="url(#clipPath1)"
+             id="rect824" />
+          <text
+             x="555"
+             y="473"
+             style="font-size:20px;fill:#000000;stroke:none"
+             xml:space="preserve"
+             clip-path="url(#clipPath1)"
+             id="text826">h</text>
+          <rect
+             x="523"
+             y="505"
+             width="80"
+             style="stroke:none"
+             rx="5"
+             ry="5"
+             height="40"
+             clip-path="url(#clipPath1)"
+             id="rect828" />
+          <rect
+             x="523"
+             y="505"
+             width="80"
+             style="fill:none;stroke:#000000;stroke-linejoin:round"
+             rx="5"
+             ry="5"
+             height="40"
+             clip-path="url(#clipPath1)"
+             id="rect830" />
+          <text
+             x="543"
+             y="532"
+             style="font-size:20px;fill:#000000;stroke:none"
+             xml:space="preserve"
+             clip-path="url(#clipPath1)"
+             id="text832">p</text>
+          <text
+             x="556"
+             y="532"
+             style="font-size:20px;fill:#000000;stroke:none"
+             xml:space="preserve"
+             clip-path="url(#clipPath1)"
+             id="text834">e</text>
+          <text
+             x="568"
+             y="532"
+             style="font-size:20px;fill:#000000;stroke:none"
+             xml:space="preserve"
+             clip-path="url(#clipPath1)"
+             id="text836">p</text>
+          <rect
+             x="432"
+             y="218"
+             width="80"
+             style="stroke:none"
+             rx="5"
+             ry="5"
+             height="40"
+             clip-path="url(#clipPath1)"
+             id="rect838" />
+          <rect
+             x="432"
+             y="218"
+             width="80"
+             style="fill:none;stroke:#000000;stroke-linejoin:round"
+             rx="5"
+             ry="5"
+             height="40"
+             clip-path="url(#clipPath1)"
+             id="rect840" />
+          <text
+             x="462"
+             y="245"
+             style="font-size:20px;fill:#000000;stroke:none"
+             xml:space="preserve"
+             clip-path="url(#clipPath1)"
+             id="text842">.</text>
+          <text
+             x="468"
+             y="245"
+             style="font-size:20px;fill:#000000;stroke:none"
+             xml:space="preserve"
+             clip-path="url(#clipPath1)"
+             id="text844">.</text>
+          <text
+             x="474"
+             y="245"
+             style="font-size:20px;fill:#000000;stroke:none"
+             xml:space="preserve"
+             clip-path="url(#clipPath1)"
+             id="text846">.</text>
+          <rect
+             x="621"
+             y="318"
+             width="80"
+             style="stroke:none"
+             rx="5"
+             ry="5"
+             height="40"
+             clip-path="url(#clipPath1)"
+             id="rect848" />
+          <rect
+             x="621"
+             y="318"
+             width="80"
+             style="fill:none;stroke:#000000;stroke-linejoin:round"
+             rx="5"
+             ry="5"
+             height="40"
+             clip-path="url(#clipPath1)"
+             id="rect850" />
+          <text
+             x="651"
+             y="345"
+             style="font-size:20px;fill:#000000;stroke:none"
+             xml:space="preserve"
+             clip-path="url(#clipPath1)"
+             id="text852">.</text>
+          <text
+             x="657"
+             y="345"
+             style="font-size:20px;fill:#000000;stroke:none"
+             xml:space="preserve"
+             clip-path="url(#clipPath1)"
+             id="text854">.</text>
+          <text
+             x="663"
+             y="345"
+             style="font-size:20px;fill:#000000;stroke:none"
+             xml:space="preserve"
+             clip-path="url(#clipPath1)"
+             id="text856">.</text>
+        </g>
+        <g
+           style="stroke-width:0;stroke-linecap:round;stroke-linejoin:round;text-rendering:geometricPrecision"
+           id="g914">
+          <rect
+             x="384"
+             y="498"
+             width="100"
+             style="fill:none"
+             height="40"
+             clip-path="url(#clipPath1)"
+             id="rect860" />
+          <rect
+             x="384"
+             y="498"
+             width="100"
+             style="opacity:0.5;fill:#ffffff;stroke:none"
+             height="40"
+             clip-path="url(#clipPath1)"
+             id="rect862" />
+          <polygon
+             points="448,538 484,498 484,538 "
+             style="opacity:0.5;fill:#ffffff;stroke:none"
+             clip-path="url(#clipPath1)"
+             id="polygon864" />
+          <polygon
+             style="opacity:0.5;fill:none"
+             points="448,538 484,498 484,538 "
+             clip-path="url(#clipPath1)"
+             id="polygon866" />
+          <text
+             x="386"
+             y="522"
+             style="font-size:22px;stroke:none"
+             xml:space="preserve"
+             clip-path="url(#clipPath1)"
+             id="text868">     PYK</text>
+          <rect
+             x="246"
+             y="604"
+             width="100"
+             style="fill:none"
+             height="40"
+             clip-path="url(#clipPath1)"
+             id="rect870" />
+          <rect
+             x="246"
+             y="604"
+             width="100"
+             style="opacity:0.5;fill:#ffffff;stroke:none"
+             height="40"
+             clip-path="url(#clipPath1)"
+             id="rect872" />
+          <polygon
+             points="273,592 246,604 346,604 "
+             style="opacity:0.5;fill:#ffffff;stroke:none"
+             clip-path="url(#clipPath1)"
+             id="polygon874" />
+          <polygon
+             style="opacity:0.5;fill:none"
+             points="273,592 246,604 346,604 "
+             clip-path="url(#clipPath1)"
+             id="polygon876" />
+          <text
+             x="248"
+             y="628"
+             style="font-size:22px;stroke:none"
+             xml:space="preserve"
+             clip-path="url(#clipPath1)"
+             id="text878">  GK1</text>
+          <rect
+             x="268"
+             y="385"
+             width="100"
+             style="fill:none"
+             height="40"
+             clip-path="url(#clipPath1)"
+             id="rect880" />
+          <rect
+             x="268"
+             y="385"
+             width="100"
+             style="opacity:0.5;fill:#ffffff;stroke:none"
+             height="40"
+             clip-path="url(#clipPath1)"
+             id="rect882" />
+          <polygon
+             points="276,387 368,385 368,425 "
+             style="opacity:0.5;fill:#ffffff;stroke:none"
+             clip-path="url(#clipPath1)"
+             id="polygon884" />
+          <polygon
+             style="opacity:0.5;fill:none"
+             points="276,387 368,385 368,425 "
+             clip-path="url(#clipPath1)"
+             id="polygon886" />
+          <text
+             x="270"
+             y="409"
+             style="font-size:22px;stroke:none"
+             xml:space="preserve"
+             clip-path="url(#clipPath1)"
+             id="text888"> RNDR2</text>
+          <rect
+             x="447"
+             y="283"
+             width="100"
+             style="fill:none"
+             height="40"
+             clip-path="url(#clipPath1)"
+             id="rect890" />
+          <rect
+             x="447"
+             y="283"
+             width="100"
+             style="opacity:0.5;fill:#ffffff;stroke:none"
+             height="40"
+             clip-path="url(#clipPath1)"
+             id="rect892" />
+          <polygon
+             points="535,298 547,283 547,323 "
+             style="opacity:0.5;fill:#ffffff;stroke:none"
+             clip-path="url(#clipPath1)"
+             id="polygon894" />
+          <polygon
+             style="opacity:0.5;fill:none"
+             points="535,298 547,283 547,323 "
+             clip-path="url(#clipPath1)"
+             id="polygon896" />
+          <text
+             x="449"
+             y="307"
+             style="font-size:22px;stroke:none"
+             xml:space="preserve"
+             clip-path="url(#clipPath1)"
+             id="text898">RNDR3</text>
+          <line
+             x1="448.5"
+             x2="356"
+             y1="538.5"
+             style="fill:none;stroke:#ffffff;stroke-width:7"
+             y2="506.7981"
+             clip-path="url(#clipPath1)"
+             id="line900" />
+          <line
+             x1="448.5"
+             x2="499"
+             y1="538.5"
+             style="fill:none;stroke:#ffffff;stroke-width:7"
+             y2="504.96179"
+             clip-path="url(#clipPath1)"
+             id="line902" />
+          <line
+             x1="448.5"
+             x2="428.03189"
+             y1="538.5"
+             style="fill:none;stroke:#ffffff;stroke-width:7"
+             y2="594"
+             clip-path="url(#clipPath1)"
+             id="line904" />
+          <line
+             x1="448.5"
+             x2="344"
+             y1="538.5"
+             style="fill:none;stroke-width:3;stroke-linejoin:miter"
+             y2="502.68539"
+             clip-path="url(#clipPath1)"
+             id="line906" />
+          <line
+             x1="448.5"
+             x2="512"
+             y1="538.5"
+             style="fill:none;stroke-width:3;stroke-linejoin:miter"
+             y2="496.32819"
+             clip-path="url(#clipPath1)"
+             id="line908" />
+          <line
+             x1="448.5"
+             x2="429.0397"
+             y1="538.5"
+             style="fill:none;stroke-width:3;stroke-linejoin:miter"
+             y2="591.26752"
+             clip-path="url(#clipPath1)"
+             id="line910" />
+          <polygon
+             points="436,591 422,609 423,586 "
+             style="stroke:none;stroke-width:3;stroke-linejoin:miter"
+             clip-path="url(#clipPath1)"
+             id="polygon912" />
+        </g>
+        <g
+           style="fill:#ffffff;stroke:#ffffff;stroke-width:3;stroke-linecap:round;text-rendering:geometricPrecision"
+           id="g920">
+          <path
+             d="m 429.0659,576.717 3.4671,-9.4011 9.4011,3.4671 -3.4671,9.4011 z"
+             style="stroke:none"
+             clip-path="url(#clipPath1)"
+             id="path916" />
+          <path
+             style="fill:none;stroke:#000000;stroke-linecap:butt"
+             d="m 429.0659,576.717 3.4671,-9.4011 9.4011,3.4671 -3.4671,9.4011 z"
+             clip-path="url(#clipPath1)"
+             id="path918" />
+        </g>
+        <g
+           style="font-weight:bold;font-size:10px;stroke-width:3;stroke-linecap:butt;text-rendering:geometricPrecision"
+           id="g924">
+          <text
+             x="435.5"
+             y="576.75"
+             style="stroke:none"
+             xml:space="preserve"
+             clip-path="url(#clipPath1)"
+             id="text922" />
+        </g>
+        <g
+           style="fill:#ffffff;stroke:#ffffff;stroke-linecap:butt;text-rendering:geometricPrecision"
+           id="g930">
+          <path
+             d="m 429.0659,576.717 3.4671,-9.4011 9.4011,3.4671 -3.4671,9.4011 z"
+             style="stroke:none"
+             clip-path="url(#clipPath1)"
+             id="path926" />
+          <path
+             d="m 429.0659,576.717 3.4671,-9.4011 9.4011,3.4671 -3.4671,9.4011 z"
+             style="fill:none;stroke:#000000"
+             clip-path="url(#clipPath1)"
+             id="path928" />
+        </g>
+        <g
+           style="font-weight:bold;font-size:10px;stroke-linecap:butt;text-rendering:geometricPrecision"
+           id="g938">
+          <text
+             x="435.5"
+             y="576.75"
+             style="stroke:none"
+             xml:space="preserve"
+             clip-path="url(#clipPath1)"
+             id="text932" />
+          <circle
+             style="stroke:none"
+             r="4.5"
+             cx="448.5"
+             cy="538.5"
+             clip-path="url(#clipPath1)"
+             id="circle934" />
+          <text
+             x="481"
+             y="489"
+             style="font-weight:normal;font-size:12px;stroke:none"
+             xml:space="preserve"
+             clip-path="url(#clipPath1)"
+             id="text936">re7</text>
+        </g>
+        <g
+           style="fill:#ffffff;stroke:#ffffff;stroke-width:7;stroke-linecap:round;stroke-linejoin:round;text-rendering:geometricPrecision"
+           id="g946">
+          <line
+             x1="276.5"
+             x2="232.03951"
+             y1="388"
+             style="fill:none"
+             y2="450"
+             clip-path="url(#clipPath1)"
+             id="line940" />
+          <line
+             x1="276.5"
+             x2="389"
+             y1="388"
+             style="fill:none"
+             y2="361.32019"
+             clip-path="url(#clipPath1)"
+             id="line942" />
+          <line
+             x1="276.5"
+             x2="245.4552"
+             y1="388"
+             style="fill:none"
+             y2="336"
+             clip-path="url(#clipPath1)"
+             id="line944" />
+        </g>
+        <g
+           style="stroke-width:3;stroke-linecap:round;text-rendering:geometricPrecision"
+           id="g962">
+          <line
+             x1="276.5"
+             x2="223.4342"
+             y1="388"
+             style="fill:none"
+             y2="462"
+             clip-path="url(#clipPath1)"
+             id="line948" />
+          <line
+             x1="276.5"
+             x2="401"
+             y1="388"
+             style="fill:none"
+             y2="358.4743"
+             clip-path="url(#clipPath1)"
+             id="line950" />
+          <line
+             x1="276.5"
+             x2="246.18829"
+             y1="388"
+             style="fill:none"
+             y2="337.22791"
+             clip-path="url(#clipPath1)"
+             id="line952" />
+          <polygon
+             style="stroke:none"
+             points="241,342 236,321 253,335 "
+             clip-path="url(#clipPath1)"
+             id="polygon954" />
+          <path
+             d="m 258.2335,347.6301 5.1364,8.6034 -8.6034,5.1364 -5.1364,-8.6034 z"
+             style="fill:#ffffff;stroke:none"
+             clip-path="url(#clipPath1)"
+             id="path956" />
+          <path
+             d="m 258.2335,347.6301 5.1364,8.6034 -8.6034,5.1364 -5.1364,-8.6034 z"
+             style="fill:none;stroke-linecap:butt"
+             clip-path="url(#clipPath1)"
+             id="path958" />
+          <text
+             x="256.5"
+             y="357.5"
+             style="font-weight:bold;font-size:10px;stroke:none;stroke-linecap:butt"
+             xml:space="preserve"
+             clip-path="url(#clipPath1)"
+             id="text960" />
+        </g>
+        <g
+           style="fill:#ffffff;stroke:#ffffff;stroke-linecap:butt;text-rendering:geometricPrecision"
+           id="g968">
+          <path
+             d="m 258.2335,347.6301 5.1364,8.6034 -8.6034,5.1364 -5.1364,-8.6034 z"
+             style="stroke:none"
+             clip-path="url(#clipPath1)"
+             id="path964" />
+          <path
+             d="m 258.2335,347.6301 5.1364,8.6034 -8.6034,5.1364 -5.1364,-8.6034 z"
+             style="fill:none;stroke:#000000"
+             clip-path="url(#clipPath1)"
+             id="path966" />
+        </g>
+        <g
+           style="font-weight:bold;font-size:10px;stroke-linecap:butt;text-rendering:geometricPrecision"
+           id="g976">
+          <text
+             x="256.5"
+             y="357.5"
+             style="stroke:none"
+             xml:space="preserve"
+             clip-path="url(#clipPath1)"
+             id="text970" />
+          <circle
+             style="stroke:none"
+             r="4.5"
+             cx="276.5"
+             cy="388"
+             clip-path="url(#clipPath1)"
+             id="circle972" />
+          <text
+             x="370"
+             y="352"
+             style="font-weight:normal;font-size:12px;stroke:none"
+             xml:space="preserve"
+             clip-path="url(#clipPath1)"
+             id="text974">re8</text>
+        </g>
+        <g
+           style="fill:#ffffff;stroke:#ffffff;stroke-width:7;stroke-linecap:round;stroke-linejoin:round;text-rendering:geometricPrecision"
+           id="g984">
+          <line
+             x1="273"
+             x2="233"
+             y1="592"
+             style="fill:none"
+             y2="613.48151"
+             clip-path="url(#clipPath1)"
+             id="line978" />
+          <line
+             x1="273"
+             x2="342"
+             y1="592"
+             style="fill:none"
+             y2="621.09637"
+             clip-path="url(#clipPath1)"
+             id="line980" />
+          <line
+             x1="273"
+             x2="258.35419"
+             y1="592"
+             style="fill:none"
+             y2="535"
+             clip-path="url(#clipPath1)"
+             id="line982" />
+        </g>
+        <g
+           style="stroke-width:3;stroke-linecap:round;text-rendering:geometricPrecision"
+           id="g1000">
+          <line
+             x1="273"
+             x2="221"
+             y1="592"
+             style="fill:none"
+             y2="619.9259"
+             clip-path="url(#clipPath1)"
+             id="line986" />
+          <line
+             x1="273"
+             x2="354"
+             y1="592"
+             style="fill:none"
+             y2="626.15662"
+             clip-path="url(#clipPath1)"
+             id="line988" />
+          <line
+             x1="273"
+             x2="259.20349"
+             y1="592"
+             style="fill:none"
+             y2="538.30542"
+             clip-path="url(#clipPath1)"
+             id="line990" />
+          <polygon
+             style="stroke:none"
+             points="252,542 254,520 266,538 "
+             clip-path="url(#clipPath1)"
+             id="polygon992" />
+          <path
+             d="m 267.3556,549.9008 2.4936,9.7048 -9.7048,2.4936 -2.4936,-9.7048 z"
+             style="fill:#ffffff;stroke:none"
+             clip-path="url(#clipPath1)"
+             id="path994" />
+          <path
+             d="m 267.3556,549.9008 2.4936,9.7048 -9.7048,2.4936 -2.4936,-9.7048 z"
+             style="fill:none;stroke-linecap:butt"
+             clip-path="url(#clipPath1)"
+             id="path996" />
+          <text
+             x="263.75"
+             y="559"
+             style="font-weight:bold;font-size:10px;stroke:none;stroke-linecap:butt"
+             xml:space="preserve"
+             clip-path="url(#clipPath1)"
+             id="text998" />
+        </g>
+        <g
+           style="fill:#ffffff;stroke:#ffffff;stroke-linecap:butt;text-rendering:geometricPrecision"
+           id="g1006">
+          <path
+             d="m 267.3556,549.9008 2.4936,9.7048 -9.7048,2.4936 -2.4936,-9.7048 z"
+             style="stroke:none"
+             clip-path="url(#clipPath1)"
+             id="path1002" />
+          <path
+             d="m 267.3556,549.9008 2.4936,9.7048 -9.7048,2.4936 -2.4936,-9.7048 z"
+             style="fill:none;stroke:#000000"
+             clip-path="url(#clipPath1)"
+             id="path1004" />
+        </g>
+        <g
+           style="font-weight:bold;font-size:10px;stroke-linecap:butt;text-rendering:geometricPrecision"
+           id="g1014">
+          <text
+             x="263.75"
+             y="559"
+             style="stroke:none"
+             xml:space="preserve"
+             clip-path="url(#clipPath1)"
+             id="text1008" />
+          <circle
+             style="stroke:none"
+             r="4.5"
+             cx="273"
+             cy="592"
+             clip-path="url(#clipPath1)"
+             id="circle1010" />
+          <text
+             x="223"
+             y="634"
+             style="font-weight:normal;font-size:12px;stroke:none"
+             xml:space="preserve"
+             clip-path="url(#clipPath1)"
+             id="text1012">re9</text>
+        </g>
+        <g
+           style="fill:#ffffff;stroke:#ffffff;stroke-width:7;stroke-linecap:round;stroke-linejoin:round;text-rendering:geometricPrecision"
+           id="g1022">
+          <line
+             x1="536"
+             x2="506"
+             y1="299"
+             style="fill:none"
+             y2="271.0455"
+             clip-path="url(#clipPath1)"
+             id="line1016" />
+          <line
+             x1="536"
+             x2="497"
+             y1="299"
+             style="fill:none"
+             y2="335.05661"
+             clip-path="url(#clipPath1)"
+             id="line1018" />
+          <line
+             x1="536"
+             x2="596"
+             y1="299"
+             style="fill:none"
+             y2="303.79999"
+             clip-path="url(#clipPath1)"
+             id="line1020" />
+        </g>
+        <g
+           style="stroke-width:3;stroke-linecap:round;text-rendering:geometricPrecision"
+           id="g1038">
+          <line
+             x1="536"
+             x2="494"
+             y1="299"
+             style="fill:none"
+             y2="259.86359"
+             clip-path="url(#clipPath1)"
+             id="line1024" />
+          <line
+             x1="536"
+             x2="485"
+             y1="299"
+             style="fill:none"
+             y2="346.15091"
+             clip-path="url(#clipPath1)"
+             id="line1026" />
+          <line
+             x1="536"
+             x2="592.16022"
+             y1="299"
+             style="fill:none"
+             y2="303.4928"
+             clip-path="url(#clipPath1)"
+             id="line1028" />
+          <polygon
+             style="stroke:none"
+             points="590,296 611,305 589,310 "
+             clip-path="url(#clipPath1)"
+             id="polygon1030" />
+          <path
+             d="m 578.0945,307.3936 -9.9881,-0.7991 0.7991,-9.9881 9.9881,0.7991 z"
+             style="fill:#ffffff;stroke:none"
+             clip-path="url(#clipPath1)"
+             id="path1032" />
+          <path
+             d="m 578.0945,307.3936 -9.9881,-0.7991 0.7991,-9.9881 9.9881,0.7991 z"
+             style="fill:none;stroke-linecap:butt"
+             clip-path="url(#clipPath1)"
+             id="path1034" />
+          <text
+             x="573.5"
+             y="305"
+             style="font-weight:bold;font-size:10px;stroke:none;stroke-linecap:butt"
+             xml:space="preserve"
+             clip-path="url(#clipPath1)"
+             id="text1036" />
+        </g>
+        <g
+           style="fill:#ffffff;stroke:#ffffff;stroke-linecap:butt;text-rendering:geometricPrecision"
+           id="g1044">
+          <path
+             d="m 578.0945,307.3936 -9.9881,-0.7991 0.7991,-9.9881 9.9881,0.7991 z"
+             style="stroke:none"
+             clip-path="url(#clipPath1)"
+             id="path1040" />
+          <path
+             d="m 578.0945,307.3936 -9.9881,-0.7991 0.7991,-9.9881 9.9881,0.7991 z"
+             style="fill:none;stroke:#000000"
+             clip-path="url(#clipPath1)"
+             id="path1042" />
+        </g>
+        <g
+           style="font-weight:bold;font-size:10px;stroke-linecap:butt;text-rendering:geometricPrecision"
+           id="g1052">
+          <text
+             x="573.5"
+             y="305"
+             style="stroke:none"
+             xml:space="preserve"
+             clip-path="url(#clipPath1)"
+             id="text1046" />
+          <circle
+             style="stroke:none"
+             r="4.5"
+             cx="536"
+             cy="299"
+             clip-path="url(#clipPath1)"
+             id="circle1048" />
+          <text
+             x="487"
+             y="361"
+             style="font-weight:normal;font-size:12px;stroke:none"
+             xml:space="preserve"
+             clip-path="url(#clipPath1)"
+             id="text1050">re13</text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
