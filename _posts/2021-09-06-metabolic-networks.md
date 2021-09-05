@@ -61,7 +61,7 @@ Apart from GK1, the reaction shown above, ADP and other metabolites take part in
 many other reactions. Together all these metabolites and reactions form a _metabolic
 network_.
 
-![A small fragment of the human metabolic network (Recon1)](./figures/small_network.svg)
+![A small fragment of the human metabolic network (Recon1)](./figures/small_recon_net_2.png)
 
 Generally, the concentrations of metabolites change with time. For instance, GK1
 increases the concentration of ADP, whereas some other reactions—those for which ADP is
@@ -119,7 +119,7 @@ The reaction CTPS2 [produces certain amino acids](https://www.kegg.jp/kegg-bin/s
 The reaction 3DSPHR participates in [sphingolipid metabolism](https://www.kegg.jp/pathway/ko00600+K04708),
 while the reaction TYMSULT is related to the protein-tyrosine sulfotransferase [activity](https://www.kegg.jp/entry/R02586).
 
-![](./figures/FBA_fluxes_fba_r.svg)
+![](./figures/FBA_fluxes_fba_r_2.png)
 
 For both GK1 and CTPS2, FBA implies that the fluxes increase when the virus biomass takes its maximum possible value.
 That happens because these reactions are related to the growth of an organism. Thus,
@@ -177,10 +177,10 @@ Let's take a look at the estimated probability densities for the 4 reaction flux
 two vertical dotted lines the two fluxes that I previously computed with FBA. Next, we compare FBA's fluxes
 with the average fluxes we get from `dingo`'s sampling routines.
 
-![](./figures/density_flux_TYMSULT_fba_2.svg)
-![](./figures/density_flux_3DSPHR_fba_2.svg)
-![](./figures/density_flux_ctps2_fba_2.svg)
-![](./figures/density_flux_gk1_fba_2.svg)
+![](./figures/density_flux_TYMSULT_fba_2.png)
+![](./figures/density_flux_3DSPHR_fba_2.png)
+![](./figures/density_flux_ctps2_fba_2.png)
+![](./figures/density_flux_gk1_fba_2.png)
 
 The blue density is computed by human's biomass-optimized states, while the red density is computed
 by virus-optimized states. The fluxes with a higher value on the y-axis in the plot are
@@ -213,7 +213,7 @@ this bar plot is different from the previous one, which `dingo` computed with FB
 values of TYMSULT are not zero here, as we noticed in the corresponding probability
 densities, but they are both much smaller than the other flux values.
 
-![](./figures/average_fluxes_sampling_r.svg)
+![](./figures/average_fluxes_sampling_r.png)
 
 To summarize, flux sampling could agree or disagree with FBA about the flux values. In
 any case, the flux densities we estimate provide us with more statistical information and
