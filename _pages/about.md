@@ -46,7 +46,7 @@ and statistical computing.
 The main computational problem we study is **sampling** from high-dimensional distributions.
 Sampling  is a fundamental operation that plays a crucial role across sciences
 including modern machine learning and data science. To address this problem we develop 
-and implement Markov Chain Monte Carlo sampling methods that scale up to thousands of dimensions.  We also work on the development of practical algorithms based on sampling for a
+and implement Markov Chain Monte Carlo sampling methods that scale up to **thousands of dimensions**.  We also work on the development of practical algorithms based on sampling for a
 set of fundamental computational problems such as **convex optimization**,
 **integration**, **volume computation** and **Bayesian inference**.
 
