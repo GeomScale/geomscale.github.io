@@ -8,11 +8,11 @@ This is a list of publications related to GeomScale activities.
 
 ## Preprints
 
-- A. Chalkis, V. Fisikopoulos - <A href="https://arxiv.org/abs/2007.01578">volesti: Volume Approximation and Sampling for Convex Polytopes in R</A>.
-
-- A. Chalkis, V. Fisikopoulos, E. Tsigaridas, H. Zafeiropoulos - <A href="https://arxiv.org/pdf/2012.05503.pdf">Geometric algorithms for sampling the flux space ofmetabolic networks</A>.
+- A. Chalkis, V. Fisikopoulos, M. Papachristou, E. Tsigaridas - [Truncated Log-concave Sampling with Reflective Hamiltonian Monte Carlo](https://arxiv.org/abs/2102.13068), 2021.
 
 ## Conference Proceedings
+
+- A. Chalkis, V. Fisikopoulos, E. Tsigaridas, H. Zafeiropoulos - <A href="https://drops.dagstuhl.de/opus/volltexte/2021/13820/">Geometric algorithms for sampling the flux space ofmetabolic networks</A>, Proceedings of the 37th International Symposium on Computational Geometry, 2021.
 
 - A. Chalkis, V. Fisikopoulos, P. Repouskos, E. Tsigaridas - <A href="https://hal.inria.fr/hal-02572792">Sampling from feasible sets of SDPs and volume approximation</A>. SIGSAM Communications in Computer Algebra. ACM, 2020 (Distinguished poster award).
 
@@ -28,8 +28,9 @@ LNCS Proceedings of 5th International Symposium on Combinatorial Optimization, 2
 - I.Z. Emiris, V. Fisikopoulos - <A href="https://vissarion.github.io/publications/EF_socg14.pdf">Efficient random-walk methods for approximating polytope volume</A>.
 Proceedings of 30th ACM Annual Symposium on Computational Geometry, 2014.
 
-
 ## Journal Articles
+
+- A. Chalkis, V. Fisikopoulos - <A href="https://journal.r-project.org/archive/2021/RJ-2021-077/index.html">volesti: Volume Approximation and Sampling for Convex Polytopes in R</A>, R Journal, 2021.
 
 - I.Z.Emiris, V.Fisikopoulos - <a href="https://dl.acm.org/authorize?N680533">Practical polytope volume approximation</a>.
 ACM Transactions on Mathematical Software, vol 44, issue 4, 2018.

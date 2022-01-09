@@ -4,11 +4,15 @@ permalink: /talks/
 
 # Dissemination and Public Talks
 
+- A. Chalkis - [PhD defense](https://www.slideshare.net/ApostolosChalkis/the-slides-of-my-phd-defense), Dec. 2021.
+- A. Chalkis - [dingo: a python package to analyzes metabolic networks](https://www.slideshare.net/ApostolosChalkis/dingo-a-python-package-to-analyzes-metabolic-networks), Tweag - software innovation lab, 2021.
+- A. Chalkis - [Sampling Spectrahedra: Volume Approximation and Optimization](https://www.slideshare.net/ApostolosChalkis/sampling-spectrahedra-volume-approximation-and-optimization), SIAM Conference on applied Algebraic Geometry (AG21).
+
 - H. Zafeiropoulos - <A href="https://docs.google.com/presentation/d/1ibXSac0_bQR2n6myYCvIac5M5V0JwLIEzPrhsbSTb20">Geometric and statistical methods in systems biology: the case of metabolic networks</A>, PyData Global, 2020. 
 (<A href="https://www.youtube.com/watch?v=zg8KFZ_LbHM&t=1s">video</A>)
-
 - M. Papachristou - <A href="https://global.pydata.org/talks/144">Sampling from (truncated)
 high-dimensional logconcave densities with VolEsti</A>, PyData Global, 2020.
+- A. Chalkis - [Shock detection and portfolio allocation in cryptocurrency markets](https://www.slideshare.net/ApostolosChalkis/shock-detection-and-portfolio-allocation-in-cryptocurrency-markets), 1st International Conference on Economics and FinTech, 2020.
 
 
 - A. Chalkis - <A href="https://">Practical volume estimation of zonotopes by a new annealing
