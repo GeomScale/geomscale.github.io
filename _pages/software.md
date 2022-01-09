@@ -31,6 +31,7 @@ for copula estimation in financial modelling and metabolic network analysis.
    <td>Contributing</td>
  </tr>
 </table>
+  <span style="color:white">white text</span>  
 
 
 
