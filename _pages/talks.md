@@ -5,7 +5,7 @@ permalink: /talks/
 # Dissemination and Public Talks
 
 - A. Chalkis - [PhD defense](https://www.slideshare.net/ApostolosChalkis/the-slides-of-my-phd-defense), Dec. 2021.
-- A. Chalkis - [dingo: a python package to analyzes metabolic networks](https://www.slideshare.net/ApostolosChalkis/dingo-a-python-package-to-analyzes-metabolic-networks), Tweag - software innovation lab, 2021.
+- A. Chalkis - [dingo: a python package to analyze metabolic networks](https://www.slideshare.net/ApostolosChalkis/dingo-a-python-package-to-analyzes-metabolic-networks), Tweag - software innovation lab, 2021.
 - A. Chalkis - [Sampling Spectrahedra: Volume Approximation and Optimization](https://www.slideshare.net/ApostolosChalkis/sampling-spectrahedra-volume-approximation-and-optimization), SIAM Conference on applied Algebraic Geometry (AG21).
 
 - H. Zafeiropoulos - <A href="https://docs.google.com/presentation/d/1ibXSac0_bQR2n6myYCvIac5M5V0JwLIEzPrhsbSTb20">Geometric and statistical methods in systems biology: the case of metabolic networks</A>, PyData Global, 2020. 
