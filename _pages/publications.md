@@ -12,7 +12,7 @@ This is a list of publications related to GeomScale activities.
 
 ## Conference Proceedings
 
-- A. Chalkis, V. Fisikopoulos, E. Tsigaridas, H. Zafeiropoulos - <A href="https://drops.dagstuhl.de/opus/volltexte/2021/13820/">Geometric algorithms for sampling the flux space ofmetabolic networks</A>, Proceedings of the 37th International Symposium on Computational Geometry, 2021.
+- A. Chalkis, V. Fisikopoulos, E. Tsigaridas, H. Zafeiropoulos - <A href="https://drops.dagstuhl.de/opus/volltexte/2021/13820/">Geometric algorithms for sampling the flux space of metabolic networks</A>, Proceedings of the 37th International Symposium on Computational Geometry, 2021.
 
 - A. Chalkis, V. Fisikopoulos, P. Repouskos, E. Tsigaridas - <A href="https://hal.inria.fr/hal-02572792">Sampling from feasible sets of SDPs and volume approximation</A>. SIGSAM Communications in Computer Algebra. ACM, 2020 (Distinguished poster award).
 
