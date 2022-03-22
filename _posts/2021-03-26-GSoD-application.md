@@ -118,4 +118,52 @@ We would consider the project successful if, after publication of the new docume
 - The standard metrics increased by 10% on average
 - The number of forks and stars in our repository increased by 10%
 
+## Project budget
 
+| Budget item  | Amount  | Running Total  | Notes/justifications  |
+|---|---|---|---|
+| Technical writer audit, update, test, and publish reference documentation of GeomScale project  |  10000.00 | 10000.00  |   |
+| Volunteer stipends  |  500 |  11500.00 | 3 volunteer stipends x 500 each  |
+|  TOTAL |   | 11500.00  |   |
+
+
+## Additional information
+
+### Previous experience with technical writers or documentation:
+
+Members of GeomScale have experience in developing and reviewing documentation.
+For example in developing and mentoring documentation development
+for [`R` CRAN package volesti](https://CRAN.R-project.org/package=volesti).
+The review process used was similar to a coding review. Examples of documentation
+review process in GeomScale are available from
+[github](https://github.com/boostorg/geometry/pulls?q=is%3Apr+is%3Aclosed+label%3Adocumentation).
+In addition to this we usually employ a last step of iterating the final draft
+of documentation to our peers and users for feedback.
+
+Our previous experience with documentation development gives us confidence to
+apply best practices and well established review processes and tools to the
+potential GSoD projects. For example, the GSoD project development will take
+part in github by opening issues for discussion and pull requests
+(with a documentation tab) to submit/review the technical writer's contributions.
+
+### Previous participation in Season of Docs, Google Summer of Code or others:
+
+All the members of GeomScale have previously participated in Google Summer of
+Code as mentors or/and as students. Our members have mentored 7 GSoC coding
+projects under `R`-project and Boost `C++` libraries organizations (2017-2019).
+The main software package of GeomScale has been substantially enhanced through
+3 GSoC projects under the mentoring of two of GeomScale’s members, while one
+student of those projects (Apostolos Chalkis) became a GeomScale member and
+GSoC mentor and admin. 
+
+The last three years (2020-2022) GeomScale has been selected as a mentoring
+organization for GSoC. In 2021 we have successfully mentored 5 projects
+resulting in >10 pull requests all of which are merged into our repositories
+development branch.
+
+We strongly believe that this experience will play a crucial role for
+successful GSoD projects. In particular, we have experience in communicating
+with persons of diverged educational and cultural background and focused
+to give the right tips and guidance for successful projects. Moreover,
+we are capable of fixing detailed and realistic time schedules based on
+the technical writer’s profile and potential.
