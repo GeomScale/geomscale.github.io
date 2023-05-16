@@ -43,7 +43,7 @@ for copula estimation in financial modelling and metabolic network analysis.
  <tr>
    <th><a href="https://github.com/GeomScale/dingo"><img src="/assets/images/github.png"
         width="60" height="60" alt="photo" class="float-left" /></a></th>
-   <th><a href="https://github.com/GeomScale/dingo/tree/develop/doc"><img src="/assets/images/doc.png"
+   <th><a href="https://github.com/GeomScale/dingo/blob/develop/README.md"><img src="/assets/images/doc.png"
         width="50" height="50" alt="photo" class="float-left" /></a></th>
    <th><a href="https://colab.research.google.com/drive/1AdXCo6tMBV4lPDYWWOXhzcM0wg30OOIx?usp=sharing"><img src="/assets/images/tutorial.png"
         width="60" height="60" alt="photo" class="float-left" /></a></th>
@@ -71,9 +71,18 @@ Approximate Weighted Model Integration*, 2020.
 Invariants*, 2020. [WWW](https://arxiv.org/abs/2010.14316)
 
 ## <img src="/assets/images/GSoC.png" width="60" height="60" alt="photo" class="float-left" /> Google Summer of Code
+
+*GeomScale* is participating in <A href="https://summerofcode.withgoogle.com/programs/2023/organizations/geomscale">Google Summer of Code 2023</A> as a mentoring organization!  
+
 *GeomScale* was accepted and participated in
-<A href="https://summerofcode.withgoogle.com/archive/2020/organizations/">Google Summer of Code 2020</A> and <A href="https://summerofcode.withgoogle.com/archive/2021/organizations/5291444977270784">Google Summer of Code 2021</A>
-as a mentoring organization. The following projects was successfully completed:
+<A href="https://summerofcode.withgoogle.com/archive/2020/organizations/">Google Summer of Code 2020</A>, <A href="https://summerofcode.withgoogle.com/archive/2021/organizations/5291444977270784">Google Summer of Code 2021</A> and <A href="https://summerofcode.withgoogle.com/programs/2022/organizations/geomscale">Google Summer of Code 2022</A> as a mentoring organization. The following projects was successfully completed:
+
+- [Memory allocation in facet redundancy removal in dingo](https://summerofcode.withgoogle.com/programs/2022/projects/968ibP0I) (GSoC 2022).
+- [Sampling correlation matrices](https://summerofcode.withgoogle.com/programs/2022/projects/biRI2YLT) (GSoC 2022).
+- [Randomized SDP solver with Riemannian Hamiltonian Monte Carlo](https://summerofcode.withgoogle.com/programs/2022/projects/li2dNGB6) (GSoC 2022).
+- [Support for new sampling methods and new model formats in dingo](https://summerofcode.withgoogle.com/programs/2022/projects/UKcKOkcC) (GSoC 2022).
+- [Counting linear extensions with volume computation](https://summerofcode.withgoogle.com/programs/2022/projects/rpWAufXk) (GSoC 2022).
+- [Automatic differentiation support in volesti](https://summerofcode.withgoogle.com/programs/2022/projects/TD3u7S00) (GSoC 2022).
 
 - [From DNA sequences to metabolic interactions: building a pipeline to extract key metabolic processes](https://summerofcode.withgoogle.com/organizations/5553085268623360/#4835597543276544) (GSoC 2021).
 - [Monte Carlo Integration](https://summerofcode.withgoogle.com/projects/#5929577068625920) (GSoC 2021).
