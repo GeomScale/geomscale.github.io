@@ -58,7 +58,7 @@ for copula estimation in financial modelling and metabolic network analysis.
 
 ## Who is using our software ?
 
-- G. Spallitta, G. Masina, P. Morettin, A. Passerini, R. Sebastiani, Enhancing SMT-based Weighted Model Integration by Structure Awareness,Proceedings of the Thirty-Eighth Conference on Uncertainty in Artificial Intelligence, PMLR 180:1876-1885, 2022. [WWW](https://proceedings.mlr.press/v180/spallitta22a.html)  
+- G. Spallitta, G. Masina, P. Morettin, A. Passerini, R. Sebastiani, Enhancing SMT-based Weighted Model Integration by Structure Awareness, Preprint, 2023. [WWW](https://arxiv.org/abs/2302.06188)  
 
 - A. Venzke, D.K. Molzahn, S. Chatzivasileiadis -
 *Efficient creation of datasets for data-driven power system applications*,
