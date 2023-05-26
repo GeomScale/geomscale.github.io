@@ -60,6 +60,8 @@ for copula estimation in financial modelling and metabolic network analysis.
 
 - G. Spallitta, G. Masina, P. Morettin, A. Passerini, R. Sebastiani, Enhancing SMT-based Weighted Model Integration by Structure Awareness, Preprint, 2023. [WWW](https://arxiv.org/abs/2302.06188)  
 
+-  M. Vejdemo-Johansson, S. Mukherjee, Multiple hypothesis testing with persistent homology, American Institute of Mathematical Sciences, 2022. [WWW](https://www.aimsciences.org/article/doi/10.3934/fods.2022018)  
+
 - A. Venzke, D.K. Molzahn, S. Chatzivasileiadis -
 *Efficient creation of datasets for data-driven power system applications*,
 Electric Power Systems Research, Volume 190, 2021.
