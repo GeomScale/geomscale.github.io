@@ -6,6 +6,10 @@ permalink: /publications/
 
 This is a list of publications related to GeomScale activities.
 
+## Preprints
+
+A. Chalkis, V. Fisikopoulos, E. Tsigaridas, H. Zafeiropoulos - <A href="https://www.biorxiv.org/content/10.1101/2023.06.18.545486v1">dingo: a Python package for metabolic flux sampling</A>, bioRxiv, 2023.  
+
 ## Conference Proceedings
 
 - C. Bachelard, A. Chalkis, V. Fisikopoulos, E. Tsigaridas, <A href="https://proceedings.mlr.press/v206/bachelard23a.html">Randomized geometric tools for anomaly detection in stock markets</A>, Proceedings of Machine Learning Research, AISTATS, 2023.  
