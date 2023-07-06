@@ -8,7 +8,7 @@ This is a list of publications related to GeomScale activities.
 
 ## Preprints
 
-A. Chalkis, V. Fisikopoulos, E. Tsigaridas, H. Zafeiropoulos - <A href="https://www.biorxiv.org/content/10.1101/2023.06.18.545486v1">dingo: a Python package for metabolic flux sampling</A>, bioRxiv, 2023.  
+- A. Chalkis, V. Fisikopoulos, E. Tsigaridas, H. Zafeiropoulos - <A href="https://www.biorxiv.org/content/10.1101/2023.06.18.545486v1">dingo: a Python package for metabolic flux sampling</A>, bioRxiv, 2023.  
 
 ## Conference Proceedings
 
