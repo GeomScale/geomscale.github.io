@@ -10,7 +10,7 @@ permalink: /people/
 
 
 ###  Contributors
-
+- <A HREF="https://www.researchgate.net/profile/Cyril-Bachelard">Cyril Bachelard</A>
 - <A HREF="https://alexmanochis.github.io/aboutme/">Alexandros Manochis</A>
 - <A HREF="https://pedrozudo.github.io/">Pedro Zuidberg Dos Martires</A>
 - <A HREF="http://personal.lse.ac.uk/natura/">Bento Natura</A>
