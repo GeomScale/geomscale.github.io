@@ -1,7 +1,7 @@
 {
   "version": "v1.1.0",
   "entity": {
-    "type": "group",
+    "type": "organisation",
     "role": "maintainer",
     "name": "GeomScale Project",
     "email": "geomscale@gmail.com",
@@ -42,7 +42,7 @@
       "name": "Rvolesti",
       "description": "Rvolesti is the R interface to the volesti C++ library and is distributed on CRAN as the R package volesti. It brings high-dimensional volume approximation, convex polytope sampling, rounding, rotation, and related geometric algorithms to R users. The package also includes methods relevant to computational finance, including copula estimation and portfolio-related analysis.",
       "webpageUrl": {
-        "url": "https://geomscale.github.io/software/"
+        "url": "https://geomscale.github.io/software"
       },
       "repositoryUrl": {
         "url": "https://github.com/GeomScale/Rvolesti",
@@ -98,6 +98,18 @@
         "type": "payment-provider",
         "address": "",
         "description": "A payment provider such as PayPal or Stripe can be used for one-time or recurring contributions. Contact us to coordinate larger institutional transfers."
+      },
+      {
+        "guid": "github-sponsors",
+        "type": "payment-provider",
+        "address": "https://github.com/sponsors/GeomScale",
+        "description": "Support GeomScale through GitHub Sponsors."
+      },
+      {
+        "guid": "open-collective",
+        "type": "payment-provider",
+        "address": "https://opencollective.com/geomscale",
+        "description": "Support GeomScale through Open Collective."
       }
     ],
     "plans": [
@@ -110,7 +122,10 @@
         "currency": "USD",
         "frequency": "yearly",
         "channels": [
-          "bank-transfer"
+          "bank-transfer",
+          "paypal-or-provider",
+          "github-sponsors",
+          "open-collective"
         ]
       },
       {
@@ -122,7 +137,10 @@
         "currency": "USD",
         "frequency": "one-time",
         "channels": [
-          "bank-transfer"
+          "bank-transfer",
+          "paypal-or-provider",
+          "github-sponsors",
+          "open-collective"
         ]
       },
       {
@@ -134,7 +152,10 @@
         "currency": "USD",
         "frequency": "one-time",
         "channels": [
-          "bank-transfer"
+          "bank-transfer",
+          "paypal-or-provider",
+          "github-sponsors",
+          "open-collective"
         ]
       },
       {
@@ -147,7 +168,9 @@
         "frequency": "one-time",
         "channels": [
           "bank-transfer",
-          "paypal-or-provider"
+          "paypal-or-provider",
+          "github-sponsors",
+          "open-collective"
         ]
       }
     ],
