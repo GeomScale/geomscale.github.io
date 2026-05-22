@@ -118,7 +118,7 @@
         "status": "active",
         "name": "Annual Sustainability Grant",
         "description": "Twelve months of core development, maintenance, and documentation for GeomScale and its key libraries (volesti, Rvolesti, dingo). Funding covers senior maintainer time, infrastructure, docs, community support, and contingency. Total request: $85,000/year. This support sustains a niche but critical open-source stack of algorithms, keeping them available for computational biology, finance, statistics, AI, and machine learning.",
-        "amount": 85000,
+        "amount": 110000,
         "currency": "USD",
         "frequency": "yearly",
         "channels": [
@@ -133,7 +133,7 @@
         "status": "active",
         "name": "6-Month Core Development Push",
         "description": "Six months of focused development on algorithmic improvements and language bindings.\n\nFocus areas:\n- Parallel and SIMD implementations in volesti for large-scale problems\n- New sampling algorithms (e.g., improved walks and advanced proposals) and better defaults\n- Python bindings for wider adoption\n- Performance engineering and benchmarking against alternative toolchains\n\nRequested amount: $50,000 (one-time).",
-        "amount": 50000,
+        "amount": 80000,
         "currency": "USD",
         "frequency": "one-time",
         "channels": [
@@ -148,7 +148,7 @@
         "status": "active",
         "name": "Documentation, Tutorials, and Examples",
         "description": "A comprehensive documentation and learning-materials push for GeomScale.\n\nDeliverables:\n- Unified API documentation for volesti, Rvolesti, and dingo\n- End-to-end tutorials for computational biology (metabolic networks) and finance (portfolio optimization, risk scenarios)\n- Jupyter notebooks for teaching high-dimensional sampling and volume computation\n- Talks and videos explaining use cases for data science and ML practitioners\n\nRequested amount: $25,000 (one-time).",
-        "amount": 25000,
+        "amount": 50000,
         "currency": "USD",
         "frequency": "one-time",
         "channels": [
