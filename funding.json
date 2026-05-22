@@ -1,0 +1,192 @@
+{
+  "$schema": "https://fundingjson.org/schema/v1.1.0.json",
+  "version": "v1.1.0",
+  "entity": {
+    "type": "group",
+    "role": "maintainer",
+    "name": "GeomScale Project",
+    "email": "geomscale@gmail.com",
+    "phone": "",
+    "description": "GeomScale is a NumFOCUS-affiliated research and development project delivering open-source software for state-of-the-art algorithms at the intersection of data science, optimization, geometric computing, and statistical computing. We are a Google Summer of Code mentoring organization and part of the global scientific Python and open-source ecosystems.\n\nOur focus is on scalable algorithms for sampling from high-dimensional distributions, volume approximation, convex optimization, integration, and related tasks that are foundational for modern data science and machine learning. We bridge the gap between cutting-edge theory in high-dimensional geometry and optimization and robust, production-quality implementations that researchers and practitioners can rely on.\n\nApplications of GeomScale span computational biology (metabolic networks and systems biology), finance (portfolio optimization, risk and shock detection in large markets), Bayesian statistics, AI, and applied mathematics.",
+    "webpageUrl": {
+      "url": "https://geomscale.github.io/",
+      "wellKnown": ""
+    }
+  },
+  "projects": [
+    {
+      "guid": "geomscale",
+      "name": "GeomScale",
+      "description": "GeomScale develops and maintains a family of open-source C++, R, and Python libraries for high-dimensional sampling, volume computation, integration, and convex optimization. The project turns advanced algorithms from computational geometry and statistics into practical tools.\n\nCore strengths:\n- Solves challenging problems in computational statistics and geometry that few or no other libraries tackle\n- State-of-the-art Markov Chain Monte Carlo (MCMC) sampling methods that scale to hundreds or thousands of dimensions\n- Deeply connected to the foundations of data science and machine learning (Bayesian inference, integration, uncertainty quantification)\n- Proven applications in molecular biology (metabolic flux analysis), finance (portfolio optimization and stress scenarios), and applied mathematics\n\nKnown weaknesses / risks:\n- Niche project with a specialized, research-oriented user base\n- Limited visibility compared to mainstream data science libraries, despite strong technical depth\n\nGeomScale aims to be a core building block for an international, interdisciplinary, and open community in high-dimensional geometrical and statistical computing.",
+      "webpageUrl": {
+        "url": "https://geomscale.github.io/",
+        "wellKnown": ""
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/GeomScale",
+        "wellKnown": ""
+      },
+      "licenses": [
+        "spdx:LGPL-3.0"
+      ],
+      "tags": [
+        "computational-geometry",
+        "sampling",
+        "optimization",
+        "volume-computation",
+        "mcmc",
+        "scientific-computing",
+        "data-science",
+        "machine-learning",
+        "computational-biology",
+        "finance"
+      ]
+    },
+    {
+      "guid": "volesti",
+      "name": "volesti",
+      "description": "volesti is the core C++ library of GeomScale for practical volume approximation and random sampling in high dimensions, with R and limited Python interfaces.\n\nFeatures:\n- Volume approximation for convex polytopes and related convex bodies (exact and approximate methods)\n- Random sampling from high-dimensional convex sets using modern MCMC algorithms\n- Scales up to hundreds or thousands of dimensions depending on the problem\n- Forms the computational backbone for Rvolesti, dingo, and other GeomScale tools",
+      "webpageUrl": {
+        "url": "https://geomscale.github.io/software/",
+        "wellKnown": ""
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/GeomScale/volesti",
+        "wellKnown": ""
+      },
+      "licenses": [
+        "spdx:LGPL-3.0"
+      ],
+      "tags": [
+        "computational-geometry",
+        "volume-computation",
+        "sampling",
+        "cpp",
+        "scientific-computing",
+        "r",
+        "python"
+      ]
+    },
+    {
+      "guid": "rvolesti",
+      "name": "Rvolesti",
+      "description": "Rvolesti is the R interface to the volesti C++ library and is distributed on CRAN as the R package volesti. It brings high-dimensional volume approximation, convex polytope sampling, rounding, rotation, and related geometric algorithms to R users. The package also includes methods relevant to computational finance, including copula estimation and portfolio-related analysis.",
+      "webpageUrl": {
+        "url": "https://CRAN.R-project.org/package=volesti",
+        "wellKnown": ""
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/GeomScale/Rvolesti",
+        "wellKnown": ""
+      },
+      "licenses": [
+        "spdx:LGPL-3.0"
+      ],
+      "tags": [
+        "r",
+        "cran",
+        "computational-geometry",
+        "sampling",
+        "volume-computation",
+        "scientific-computing",
+        "computational-finance"
+      ]
+    },
+    {
+      "guid": "dingo",
+      "name": "dingo",
+      "description": "dingo is a Python library for sampling and analyzing metabolic networks. It uses high-dimensional MCMC sampling powered by volesti to explore the feasible flux space of large-scale metabolic models.\n\nApplications:\n- Metabolic flux analysis and flux variability analysis in systems biology\n- Unbiased description and visualization of metabolic network capabilities\n- Research workflows based on state-of-the-art geometric sampling",
+      "webpageUrl": {
+        "url": "https://geomscale.github.io/software/",
+        "wellKnown": ""
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/GeomScale/dingo",
+        "wellKnown": ""
+      },
+      "licenses": [
+        "spdx:LGPL-3.0"
+      ],
+      "tags": [
+        "computational-biology",
+        "metabolic-networks",
+        "python",
+        "systems-biology",
+        "sampling"
+      ]
+    }
+  ],
+  "funding": {
+    "channels": [
+      {
+        "guid": "bank-transfer",
+        "type": "bank",
+        "address": "",
+        "description": "Direct bank transfer (SEPA and international) can be arranged. Contact geomscale@gmail.com for account details, invoicing, and tax residency documents (Greece jurisdiction)."
+      },
+      {
+        "guid": "paypal-or-provider",
+        "type": "payment-provider",
+        "address": "",
+        "description": "A payment provider such as PayPal or Stripe can be used for one-time or recurring contributions. Contact us to coordinate larger institutional transfers."
+      }
+    ],
+    "plans": [
+      {
+        "guid": "annual-sustainability",
+        "status": "active",
+        "name": "Annual Sustainability Grant",
+        "description": "Twelve months of core development, maintenance, and documentation across GeomScale and its key libraries (volesti, Rvolesti, dingo).\n\nFunding breakdown (indicative):\n- Part-time senior developer and maintainer time: $60,000\n- Infrastructure (CI/CD, hosting, domains, build hardware): $3,000\n- Documentation, tutorials, and example galleries: $10,000\n- Community work (Contributors mentoring, user support, workshops, sprints): $5,000\n- Contingency and small contractor tasks: $7,000\n\nTotal requested: $85,000 per year.\n\nImpact: This funding stabilizes the maintenance of a niche but critical stack of algorithms that are largely unavailable elsewhere, and keeps them accessible to researchers in computational biology, finance, statistics, AI, and machine learning.",
+        "amount": 85000,
+        "currency": "USD",
+        "frequency": "yearly",
+        "channels": [
+          "bank-transfer"
+        ]
+      },
+      {
+        "guid": "core-development-6m",
+        "status": "active",
+        "name": "6-Month Core Development Push",
+        "description": "Six months of focused development on algorithmic improvements and language bindings.\n\nFocus areas:\n- Parallel and SIMD implementations in volesti for large-scale problems\n- New sampling algorithms (e.g., improved walks and advanced proposals) and better defaults\n- Python bindings for wider adoption\n- Performance engineering and benchmarking against alternative toolchains\n\nRequested amount: $50,000 (one-time).",
+        "amount": 50000,
+        "currency": "USD",
+        "frequency": "one-time",
+        "channels": [
+          "bank-transfer"
+        ]
+      },
+      {
+        "guid": "documentation-and-tutorials",
+        "status": "active",
+        "name": "Documentation, Tutorials, and Examples",
+        "description": "A comprehensive documentation and learning-materials push for GeomScale.\n\nDeliverables:\n- Unified API documentation for volesti, Rvolesti, and dingo\n- End-to-end tutorials for computational biology (metabolic networks) and finance (portfolio optimization, risk scenarios)\n- Example galleries and Jupyter notebooks for teaching high-dimensional sampling and volume computation\n- Recorded talks or short videos explaining use cases for data science and ML practitioners\n\nRequested amount: $25,000 (one-time).",
+        "amount": 25000,
+        "currency": "USD",
+        "frequency": "one-time",
+        "channels": [
+          "bank-transfer"
+        ]
+      },
+      {
+        "guid": "goodwill-support",
+        "status": "active",
+        "name": "Goodwill and Unrestricted Support",
+        "description": "Any amount of unrestricted support helps keep GeomScale sustainable and responsive to user needs. Funds are used for maintenance, bug fixes, and incremental improvements that are hard to fund via traditional research grants.",
+        "amount": 0,
+        "currency": "USD",
+        "frequency": "one-time",
+        "channels": [
+          "bank-transfer",
+          "paypal-or-provider"
+        ]
+      }
+    ],
+    "history": [
+      {
+        "year": 2023-2025,
+        "description": "NumFOCUS Small Development Grants and Google Summer of Code-related funding."
+      }
+    ]
+  }
+}
