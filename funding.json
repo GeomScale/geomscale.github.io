@@ -1,5 +1,4 @@
 {
-  "$schema": "https://fundingjson.org/schema/v1.1.0.json",
   "version": "v1.1.0",
   "entity": {
     "type": "group",
@@ -9,8 +8,7 @@
     "phone": "",
     "description": "GeomScale is a NumFOCUS-affiliated research and development project delivering open-source software for state-of-the-art algorithms at the intersection of data science, optimization, geometric computing, and statistical computing. We are a Google Summer of Code mentoring organization and part of the global scientific Python and open-source ecosystems.\n\nOur focus is on scalable algorithms for sampling from high-dimensional distributions, volume approximation, convex optimization, integration, and related tasks that are foundational for modern data science and machine learning. We bridge the gap between cutting-edge theory in high-dimensional geometry and optimization and robust, production-quality implementations that researchers and practitioners can rely on.\n\nApplications of GeomScale span computational biology (metabolic networks and systems biology), finance (portfolio optimization, risk and shock detection in large markets), Bayesian statistics, AI, and applied mathematics.",
     "webpageUrl": {
-      "url": "https://geomscale.github.io/",
-      "wellKnown": ""
+      "url": "https://geomscale.github.io/"
     }
   },
   "projects": [
@@ -19,12 +17,10 @@
       "name": "GeomScale",
       "description": "GeomScale develops and maintains a family of open-source C++, R, and Python libraries for high-dimensional sampling, volume computation, integration, and convex optimization. The project turns advanced algorithms from computational geometry and statistics into practical tools.\n\nCore strengths:\n- Solves challenging problems in computational statistics and geometry that few or no other libraries tackle\n- State-of-the-art Markov Chain Monte Carlo (MCMC) sampling methods that scale to hundreds or thousands of dimensions\n- Deeply connected to the foundations of data science and machine learning (Bayesian inference, integration, uncertainty quantification)\n- Proven applications in molecular biology (metabolic flux analysis), finance (portfolio optimization and stress scenarios), and applied mathematics\n\nKnown weaknesses / risks:\n- Niche project with a specialized, research-oriented user base\n- Limited visibility compared to mainstream data science libraries, despite strong technical depth\n\nGeomScale aims to be a core building block for an international, interdisciplinary, and open community in high-dimensional geometrical and statistical computing.",
       "webpageUrl": {
-        "url": "https://geomscale.github.io/",
-        "wellKnown": ""
+        "url": "https://geomscale.github.io/"
       },
       "repositoryUrl": {
-        "url": "https://github.com/GeomScale",
-        "wellKnown": ""
+        "url": "https://github.com/GeomScale"
       },
       "licenses": [
         "spdx:LGPL-3.0"
@@ -47,12 +43,10 @@
       "name": "volesti",
       "description": "volesti is the core C++ library of GeomScale for practical volume approximation and random sampling in high dimensions.\n\nFeatures:\n- Volume approximation for convex polytopes and related convex bodies (exact and approximate methods)\n- Random sampling from high-dimensional convex sets using modern MCMC algorithms\n- Scales up to hundreds or thousands of dimensions depending on the problem\n- Forms the computational backbone for Rvolesti, dingo, and other GeomScale tools",
       "webpageUrl": {
-        "url": "https://geomscale.github.io/software/",
-        "wellKnown": ""
+        "url": "https://geomscale.github.io/software"
       },
       "repositoryUrl": {
-        "url": "https://github.com/GeomScale/volesti",
-        "wellKnown": ""
+        "url": "https://github.com/GeomScale/volesti"
       },
       "licenses": [
         "spdx:LGPL-3.0"
@@ -73,12 +67,10 @@
       "name": "Rvolesti",
       "description": "Rvolesti is the R interface to the volesti C++ library and is distributed on CRAN as the R package volesti. It brings high-dimensional volume approximation, convex polytope sampling, rounding, rotation, and related geometric algorithms to R users. The package also includes methods relevant to computational finance, including copula estimation and portfolio-related analysis.",
       "webpageUrl": {
-        "url": "https://CRAN.R-project.org/package=volesti",
-        "wellKnown": ""
+        "url": "https://CRAN.R-project.org/package=volesti"
       },
       "repositoryUrl": {
-        "url": "https://github.com/GeomScale/Rvolesti",
-        "wellKnown": ""
+        "url": "https://github.com/GeomScale/Rvolesti"
       },
       "licenses": [
         "spdx:LGPL-3.0"
@@ -99,12 +91,10 @@
       "name": "dingo",
       "description": "dingo is a Python library for sampling and analyzing metabolic networks. It uses high-dimensional MCMC sampling powered by volesti to explore the feasible flux space of large-scale metabolic models.\n\nApplications:\n- Metabolic flux analysis and flux variability analysis in systems biology\n- Unbiased description and visualization of metabolic network capabilities\n- Research workflows based on state-of-the-art geometric sampling",
       "webpageUrl": {
-        "url": "https://geomscale.github.io/software/",
-        "wellKnown": ""
+        "url": "https://geomscale.github.io/software"
       },
       "repositoryUrl": {
-        "url": "https://github.com/GeomScale/dingo",
-        "wellKnown": ""
+        "url": "https://github.com/GeomScale/dingo"
       },
       "licenses": [
         "spdx:LGPL-3.0"
@@ -187,14 +177,26 @@
     "history": [
       {
         "year": 2023,
+        "income": 0,
+        "expenses": 0,
+        "taxes": 0,
+        "currency": "USD",
         "description": "NumFOCUS Small Development Grants and Google Summer of Code-related funding."
       },
       {
         "year": 2024,
+        "income": 0,
+        "expenses": 0,
+        "taxes": 0,
+        "currency": "USD",
         "description": "Google Summer of Code-related funding."
       },
       {
         "year": 2025,
+        "income": 0,
+        "expenses": 0,
+        "taxes": 0,
+        "currency": "USD",
         "description": "NumFOCUS Small Development Grants and Google Summer of Code-related funding."
       }
     ]
