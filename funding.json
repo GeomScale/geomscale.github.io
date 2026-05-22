@@ -42,7 +42,7 @@
       "name": "Rvolesti",
       "description": "Rvolesti is the R interface to the volesti C++ library and is distributed on CRAN as the R package volesti. It brings high-dimensional volume approximation, convex polytope sampling, rounding, rotation, and related geometric algorithms to R users. The package also includes methods relevant to computational finance, including copula estimation and portfolio-related analysis.",
       "webpageUrl": {
-        "url": "https://CRAN.R-project.org/package=volesti"
+        "url": "https://geomscale.github.io/software/"
       },
       "repositoryUrl": {
         "url": "https://github.com/GeomScale/Rvolesti",
