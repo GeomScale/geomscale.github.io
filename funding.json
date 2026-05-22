@@ -13,32 +13,6 @@
   },
   "projects": [
     {
-      "guid": "geomscale",
-      "name": "GeomScale",
-      "description": "GeomScale develops and maintains a family of open-source C++, R, and Python libraries for high-dimensional sampling, volume computation, integration, and convex optimization. The project turns advanced algorithms from computational geometry and statistics into practical tools.\n\nCore strengths:\n- Solves challenging problems in computational statistics and geometry that few or no other libraries tackle\n- State-of-the-art Markov Chain Monte Carlo (MCMC) sampling methods that scale to hundreds or thousands of dimensions\n- Deeply connected to the foundations of data science and machine learning (Bayesian inference, integration, uncertainty quantification)\n- Proven applications in molecular biology (metabolic flux analysis), finance (portfolio optimization and stress scenarios), and applied mathematics\n\nKnown weaknesses / risks:\n- Niche project with a specialized, research-oriented user base\n- Limited visibility compared to mainstream data science libraries, despite strong technical depth\n\nGeomScale aims to be a core building block for an international, interdisciplinary, and open community in high-dimensional geometrical and statistical computing.",
-      "webpageUrl": {
-        "url": "https://geomscale.github.io/"
-      },
-      "repositoryUrl": {
-        "url": "https://github.com/GeomScale"
-      },
-      "licenses": [
-        "spdx:LGPL-3.0"
-      ],
-      "tags": [
-        "computational-geometry",
-        "sampling",
-        "optimization",
-        "volume-computation",
-        "mcmc",
-        "scientific-computing",
-        "data-science",
-        "machine-learning",
-        "computational-biology",
-        "finance"
-      ]
-    },
-    {
       "guid": "volesti",
       "name": "volesti",
       "description": "volesti is the core C++ library of GeomScale for practical volume approximation and random sampling in high dimensions.\n\nFeatures:\n- Volume approximation for convex polytopes and related convex bodies (exact and approximate methods)\n- Random sampling from high-dimensional convex sets using modern MCMC algorithms\n- Scales up to hundreds or thousands of dimensions depending on the problem\n- Forms the computational backbone for Rvolesti, dingo, and other GeomScale tools",
@@ -47,6 +21,7 @@
       },
       "repositoryUrl": {
         "url": "https://github.com/GeomScale/volesti"
+        "wellKnown": "https://github.com/GeomScale/volesti/blob/main/.well-known/funding-manifest-urls"
       },
       "licenses": [
         "spdx:LGPL-3.0"
@@ -71,6 +46,7 @@
       },
       "repositoryUrl": {
         "url": "https://github.com/GeomScale/Rvolesti"
+        "wellKnown": "https://github.com/GeomScale/Rvolesti/blob/main/.well-known/funding-manifest-urls"
       },
       "licenses": [
         "spdx:LGPL-3.0"
@@ -95,6 +71,7 @@
       },
       "repositoryUrl": {
         "url": "https://github.com/GeomScale/dingo"
+        "wellKnown": "https://github.com/GeomScale/dingo/blob/main/.well-known/funding-manifest-urls"
       },
       "licenses": [
         "spdx:LGPL-3.0"
