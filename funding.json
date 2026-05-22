@@ -45,7 +45,7 @@
     {
       "guid": "volesti",
       "name": "volesti",
-      "description": "volesti is the core C++ library of GeomScale for practical volume approximation and random sampling in high dimensions, with R and limited Python interfaces.\n\nFeatures:\n- Volume approximation for convex polytopes and related convex bodies (exact and approximate methods)\n- Random sampling from high-dimensional convex sets using modern MCMC algorithms\n- Scales up to hundreds or thousands of dimensions depending on the problem\n- Forms the computational backbone for Rvolesti, dingo, and other GeomScale tools",
+      "description": "volesti is the core C++ library of GeomScale for practical volume approximation and random sampling in high dimensions.\n\nFeatures:\n- Volume approximation for convex polytopes and related convex bodies (exact and approximate methods)\n- Random sampling from high-dimensional convex sets using modern MCMC algorithms\n- Scales up to hundreds or thousands of dimensions depending on the problem\n- Forms the computational backbone for Rvolesti, dingo, and other GeomScale tools",
       "webpageUrl": {
         "url": "https://geomscale.github.io/software/",
         "wellKnown": ""
@@ -63,8 +63,9 @@
         "sampling",
         "cpp",
         "scientific-computing",
-        "r",
-        "python"
+        "learning",
+        "inference",
+        "data-science"
       ]
     },
     {
@@ -83,13 +84,14 @@
         "spdx:LGPL-3.0"
       ],
       "tags": [
-        "r",
+        "r-language",
         "cran",
         "computational-geometry",
         "sampling",
         "volume-computation",
         "scientific-computing",
-        "computational-finance"
+        "computational-finance",
+        "Bayesian inference"
       ]
     },
     {
