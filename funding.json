@@ -21,7 +21,7 @@
       },
       "repositoryUrl": {
         "url": "https://github.com/GeomScale/volesti",
-        "wellKnown": "https://github.com/GeomScale/volesti/blob/main/.well-known/funding-manifest-urls"
+        "wellKnown": "https://github.com/GeomScale/volesti/blob/develop/.well-known/funding-manifest-urls"
       },
       "licenses": [
         "spdx:LGPL-3.0"
@@ -46,7 +46,7 @@
       },
       "repositoryUrl": {
         "url": "https://github.com/GeomScale/Rvolesti",
-        "wellKnown": "https://github.com/GeomScale/Rvolesti/blob/main/.well-known/funding-manifest-urls"
+        "wellKnown": "https://github.com/GeomScale/Rvolesti/blob/develop/.well-known/funding-manifest-urls"
       },
       "licenses": [
         "spdx:LGPL-3.0"
@@ -71,7 +71,7 @@
       },
       "repositoryUrl": {
         "url": "https://github.com/GeomScale/dingo",
-        "wellKnown": "https://github.com/GeomScale/dingo/blob/main/.well-known/funding-manifest-urls"
+        "wellKnown": "https://github.com/GeomScale/dingo/blob/develop/.well-known/funding-manifest-urls"
       },
       "licenses": [
         "spdx:LGPL-3.0"
