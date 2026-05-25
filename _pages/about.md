@@ -4,7 +4,7 @@ permalink: /about/
 
 <img width="40%" src="/assets/images/logo.png">
 
-## What we aim ?
+## What are our aims?
 
 *GeomScale* is a research and development project that delivers open source code
 for state-of-the-art algorithms at the intersection of data science, optimization,
@@ -56,4 +56,3 @@ scoring and portfolio optimization. Moreover, GeomScale hosts a software framewo
 **analysis of metabolic networks** that given a metabolic model generates high-dimensional
 random sampling of metabolic fluxes that in turn provide an unbiased description of the
 capabilities of the metabolic network.
-
