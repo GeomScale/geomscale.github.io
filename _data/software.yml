@@ -1,0 +1,38 @@
+# Packages shown on /software/. One entry per package; keep `blurb` to one line.
+- name: volesti
+  blurb: C++ library for sampling and volume computation in high dimensions (polytopes, zonotopes, spectrahedra)
+  logo: /assets/images/volesti_logo.jpg
+  lang: C++
+  license: LGPL-3.0
+  repo: https://github.com/GeomScale/volesti
+  docs: https://volesti.readthedocs.io
+  paper: https://doi.org/10.21105/joss.07886
+- name: Rvolesti
+  blurb: R interface to volesti, on CRAN as the package volesti
+  lang: R
+  license: LGPL-3.0
+  install: install.packages("volesti")
+  repo: https://github.com/GeomScale/Rvolesti
+  docs: https://cran.r-project.org/package=volesti
+  paper: https://doi.org/10.32614/RJ-2021-077
+- name: dingo
+  blurb: Python package for flux sampling and analysis of genome-scale metabolic networks
+  logo: /assets/images/dingo.jpg
+  lang: Python
+  license: LGPL-3.0
+  install: pip install dingo-walk
+  repo: https://github.com/GeomScale/dingo
+  docs: https://github.com/GeomScale/dingo#readme
+  paper: https://doi.org/10.1093/bioadv/vbae037
+- name: ovolesti
+  blurb: GNU Octave package for volesti; in development, funded by NLnet
+  lang: GNU Octave
+  license: GPL-3.0
+  install: pkg install "https://github.com/GeomScale/ovolesti/archive/refs/tags/v0.0.1.tar.gz"
+  repo: https://github.com/GeomScale/ovolesti
+  docs: https://github.com/GeomScale/ovolesti#readme
+- name: PorQua
+  blurb: Python library for portfolio optimisation, index replication and backtesting
+  lang: Python
+  license: LGPL-3.0
+  repo: https://github.com/GeomScale/PorQua

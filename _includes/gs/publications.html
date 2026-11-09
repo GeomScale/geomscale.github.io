@@ -1,0 +1,7 @@
+{% assign by_year = site.data.publications | group_by: "year" %}
+{% for y in by_year %}
+<h3 class="gs-year">{{ y.name }}</h3>
+<ul class="gs-list">
+{% for p in y.items %}  <li>{% include gs/publication.html p=p %}</li>
+{% endfor %}</ul>
+{% endfor %}

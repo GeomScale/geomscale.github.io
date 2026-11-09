@@ -1,0 +1,11 @@
+{% assign n = 0 %}{% for y in site.data.gsoc %}{% unless y.org %}{% assign n = n | plus: y.projects.size %}{% endunless %}{% endfor %}
+{% assign first = site.data.gsoc | where_exp: "y", "y.org == nil" | last %}
+<p>GeomScale has been a Google Summer of Code mentoring organisation every year since {{ first.year }}: {{ n }} completed projects.</p>
+{% for y in site.data.gsoc %}
+<details class="gs-gsoc"{% if forloop.first %} open{% endif %}>
+  <summary><strong>{{ y.year }}</strong>{% if y.org %} (with the {{ y.org }}){% endif %} <span class="gs-muted">{{ y.projects.size }} project{% if y.projects.size > 1 %}s{% endif %}</span></summary>
+  <ul class="gs-list">
+  {% for p in y.projects %}    <li><a href="{{ p.url }}">{{ p.title }}</a> <span class="gs-muted">{{ p.contributor }}</span></li>
+  {% endfor %}</ul>
+</details>
+{% endfor %}

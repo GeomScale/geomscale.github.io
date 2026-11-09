@@ -22,3 +22,37 @@ html {
     font-size: 18px; // change to whatever
   }
 }
+
+/* GeomScale content blocks (_includes/gs/) */
+.gs-muted { color: $gray; font-size: $type-size-6; }
+
+.gs-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(16em, 1fr));
+  gap: 1em;
+  margin-bottom: 2em;
+}
+.gs-card {
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+  padding: 0.8em 1em;
+  font-size: $type-size-6;
+  p { margin: 0.4em 0; }
+}
+.gs-card__title { margin: 0; font-size: $type-size-4; }
+.gs-card__meta { color: $gray; }
+.gs-card__install { margin: 0.5em 0; padding: 0.4em 0.6em; font-size: $type-size-7; white-space: pre-wrap; word-break: break-all; }
+.gs-card__links { font-weight: bold; }
+
+.gs-list { padding-left: 1.2em; li { margin-bottom: 0.3em; } }
+.gs-year { margin-top: 1em; }
+
+.gs-people {
+  columns: 3 17rem;
+  padding-left: 0;
+  list-style: none;
+  li { break-inside: avoid; margin-bottom: 0.3em; }
+}
+
+.gs-gsoc { margin-bottom: 0.5em; summary { cursor: pointer; } }
+.gs-logos img { height: 3.5em; width: auto; margin-right: 1.5em; vertical-align: middle; }

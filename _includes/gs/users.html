@@ -1,0 +1,8 @@
+{% for g in site.data.users %}
+<h3>{{ g.field }}</h3>
+<ul class="gs-list">
+{% for u in g.items %}
+  <li><a href="{{ u.url }}">{{ u.name }}</a>: {{ u.what }}.{% if u.ref %} <span class="gs-muted">{% if u.ref_url %}<a href="{{ u.ref_url }}">{{ u.ref }}</a>{% else %}{{ u.ref }}{% endif %}</span>{% endif %}</li>
+{% endfor %}
+</ul>
+{% endfor %}

@@ -175,6 +175,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-redirect-from
   - jekyll-titles-from-headings
 
 # Pages take their title from the first heading; the heading is then removed from the body.

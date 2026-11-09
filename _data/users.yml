@@ -1,0 +1,63 @@
+# Projects and papers that use GeomScale software, shown on /software/ grouped by field.
+# Only list a project after checking that it calls, imports or vendors our code.
+- field: AI and formal reasoning
+  items:
+    - name: ttc
+      what: volume of linear real arithmetic (SMT) formulas
+      url: https://github.com/arijitsh/ttc
+      ref: Shaw, Sarkar, Meel, KR 2025; Shaw, Meel, DAC 2025
+    - name: wmpy / WMI-PA
+      what: approximate weighted model integration
+      url: https://github.com/unitn-sml/wmpy
+      ref: Spallitta et al., Artificial Intelligence 2024
+      ref_url: https://doi.org/10.1016/j.artint.2024.104067
+    - name: WMI-LP
+      what: weighted model integration over non-linear real arithmetic (volesti baseline)
+      url: https://github.com/destrat18/wmilp
+      ref: Akshay et al., IJCAI 2025
+      ref_url: https://doi.org/10.24963/ijcai.2025/1005
+    - name: aria
+      what: automated reasoning toolkit, bundles ttc for volume and model counting
+      url: https://github.com/ZJU-PL/aria
+    - name: Monte Carlo anti-differentiation
+      what: approximate weighted model integration
+      url: https://arxiv.org/abs/2001.04566
+      ref: Zuidberg Dos Martires, Kolb, 2020
+- field: Programming languages
+  items:
+    - name: Hybrid AARA
+      what: hit-and-run and HMC sampling for Bayesian resource-bound analysis
+      url: https://github.com/LongPham7/hybrid_aara_artifact
+      ref: Pham, Saad, Hoffmann, PLDI 2024
+      ref_url: https://doi.org/10.1145/3656380
+- field: Power systems
+  items:
+    - name: HEDGeOPF.jl
+      what: uniform polytope sampling to generate optimal power flow datasets
+      url: https://github.com/mttb91/HEDGeOPF.jl
+      ref: arXiv 2508.19083
+      ref_url: https://arxiv.org/abs/2508.19083
+    - name: Data-driven power system datasets
+      what: sampling of the feasible operating space
+      url: https://doi.org/10.1016/j.epsr.2020.106614
+      ref: Venzke, Molzahn, Chatzivasileiadis, Electric Power Systems Research 2021
+- field: Ecology and metabolism
+  items:
+    - name: samplelim
+      what: MCMC sampling for linear inverse models (R; builds on volesti)
+      url: https://github.com/pregnault/samplelim
+      ref: Girardin et al., Comm. Statistics – Simulation and Computation 2026
+      ref_url: https://doi.org/10.1080/03610918.2025.2603532
+- field: Mathematics and statistics
+  items:
+    - name: TUGLab
+      what: cooperative game theory (R, imports volesti)
+      url: https://cran.r-project.org/package=TUGLab
+    - name: Quantum invariants of 3-manifolds
+      what: large asymptotics of 3-manifold quantum invariants
+      url: https://arxiv.org/abs/2010.14316
+      ref: Maria, Rouillé, 2020
+    - name: Persistent homology testing
+      what: multiple hypothesis testing with persistent homology
+      url: https://doi.org/10.3934/fods.2022018
+      ref: Vejdemo-Johansson, Mukherjee, Foundations of Data Science 2022

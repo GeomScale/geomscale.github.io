@@ -1,0 +1,99 @@
+# People shown on /community/.
+#
+# Main contributors: people who wrote a feature that ships in a GeomScale package
+# (merged, user-visible, still in the code), or co-authored dingo or PorQua. One line
+# each, naming the contribution. The final list is the maintainer's call.
+# Everyone who completed a GSoC project is credited in _data/gsoc.yml.
+
+core:
+  - name: Vissarion Fisikopoulos
+    role: project lead
+    url: https://vissarion.github.io
+  - name: Apostolos Chalkis
+    url: https://tolischal.github.io
+  - name: Elias Tsigaridas
+    url: https://who.paris.inria.fr/Elias.Tsigaridas/
+
+contributors:
+  - package: volesti
+    people:
+      - name: Pedro Zuidberg Dos Martires
+        url: https://pedrozudo.github.io/
+        what: first Python interface
+      - name: Panagiotis Repouskos
+        url: https://panagiotisrep.github.io/
+        what: spectrahedra, SDP by simulated annealing, Eigen backend
+      - name: Marios Papachristou
+        url: https://papachristoumarios.github.io
+        what: HMC and reflective HMC samplers, ODE solvers
+      - name: Alexandros Manochis
+        url: https://alexmanochis.github.io/aboutme/
+        what: Dikin, John and Vaidya walks; rounding; MCMC diagnostics; documentation (GSoD)
+      - name: Bento Natura
+        url: https://github.com/bentonatura
+        what: interior-point methods for sum-of-squares optimization
+      - name: Vaibhav Thakkar
+        url: https://github.com/vaithak
+        what: order polytopes, Gaussian accelerated billiard walk, CMake build
+      - name: Ioannis Iakovidis
+        url: https://github.com/iakoviid
+        what: constrained Riemannian HMC (CRHMC)
+      - name: Huu Phuoc Le
+        url: https://github.com/huuphuocle
+        what: sampling correlation matrices
+      - name: Zhang Zhuyan
+        url: https://github.com/zhanggiene
+        what: automatic differentiation
+      - name: Luca Perju
+        url: https://github.com/lucaperju
+        what: Gaussian accelerated billiard walk, sparse H-polytopes
+      - name: Vladimir Necula
+        url: https://github.com/vgnecula
+        what: CRHMC in volume computation
+      - name: Iva Janković
+        url: https://github.com/ivajankovic
+        what: Shake-and-Bake boundary sampling
+      - name: Angelos Korakitis
+        url: https://angeloskorakitis.github.io/
+        what: randomized SDP solver
+      - name: Guillermo Martin
+        url: https://github.com/guillexm
+        what: CRHMC and exponential sampling for dingo
+  - package: Rvolesti
+    people:
+      - name: Soumya Tarafder
+        url: https://github.com/Soumya624
+        what: Rvolesti as a standalone package
+      - name: Atrayee Samanta
+        url: https://github.com/atrayees
+        what: correlation matrices in R
+  - package: dingo
+    people:
+      - name: Haris Zafeiropoulos
+        url: https://hariszaf.github.io
+        what: co-author
+      - name: Ke Shih
+        url: https://github.com/KeShih
+        what: LP solver interface
+      - name: Sotirios Touliopoulos
+        url: https://sotiristouliopoulos.github.io/
+        what: preprocessing and flux statistics
+  - package: PorQua
+    people:
+      - name: Cyril Bachelard
+        url: https://www.researchgate.net/profile/Cyril-Bachelard
+        what: author
+      - name: Ho Thi Minh Ha
+        url: https://github.com/tmhho
+        what: backtesting and solver tests
+
+mentors:
+  - name: Zafeirakis Zafeirakopoulos
+    url: http://zaf.zafeirakopoulos.info
+  - name: Vangelis Anagnostopoulos
+
+groups:
+  - name: ErGA lab, National and Kapodistrian University of Athens
+    url: http://erga.di.uoa.gr
+  - name: Ouragan team, Inria Paris
+    url: https://team.inria.fr/ouragan

@@ -1,0 +1,11 @@
+<div class="gs-cards">
+{% for p in site.data.software %}
+  <div class="gs-card">
+    <h3 class="gs-card__title"><a href="{{ p.repo }}">{{ p.name }}</a></h3>
+    <p class="gs-card__meta">{{ p.lang }} · {{ p.license }}</p>
+    <p>{{ p.blurb }}</p>
+    {% if p.install %}<pre class="gs-card__install"><code>{{ p.install | escape }}</code></pre>{% endif %}
+    <p class="gs-card__links"><a href="{{ p.repo }}">Source</a>{% if p.docs %} · <a href="{{ p.docs }}">Docs</a>{% endif %}{% if p.paper %} · <a href="{{ p.paper }}">Paper</a>{% endif %}</p>
+  </div>
+{% endfor %}
+</div>

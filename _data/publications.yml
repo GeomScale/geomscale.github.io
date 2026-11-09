@@ -1,0 +1,111 @@
+# Publications shown on /research/, newest first. `type`: journal | conference | preprint.
+# `cite: true` marks the entry shown under "How to cite".
+- year: 2025
+  authors: A. Chalkis, V. Fisikopoulos, M. Papachristou, E. Tsigaridas
+  title: "volesti: A C++ library for sampling and volume computation on convex bodies"
+  venue: Journal of Open Source Software
+  type: journal
+  url: https://doi.org/10.21105/joss.07886
+  cite: true
+- year: 2024
+  authors: A. Chalkis, V. Fisikopoulos, E. Tsigaridas, H. Zafeiropoulos
+  title: "dingo: a Python package for metabolic flux sampling"
+  venue: Bioinformatics Advances
+  type: journal
+  url: https://doi.org/10.1093/bioadv/vbae037
+- year: 2024
+  authors: C. Bachelard, A. Chalkis, V. Fisikopoulos, E. Tsigaridas
+  title: Randomized control in performance analysis and empirical asset pricing
+  venue: SSRN preprint
+  type: preprint
+  url: https://doi.org/10.2139/ssrn.4744249
+- year: 2023
+  authors: A. Chalkis, V. Fisikopoulos, M. Papachristou, E. Tsigaridas
+  title: Truncated log-concave sampling for convex bodies with reflective Hamiltonian Monte Carlo
+  venue: ACM Transactions on Mathematical Software
+  type: journal
+  url: https://doi.org/10.1145/3589505
+- year: 2023
+  authors: A. Chalkis, I.Z. Emiris, V. Fisikopoulos
+  title: A practical algorithm for volume estimation based on billiard trajectories and simulated annealing
+  venue: ACM Journal of Experimental Algorithmics
+  type: journal
+  url: https://doi.org/10.1145/3584182
+- year: 2023
+  authors: L. Calès, A. Chalkis, I.Z. Emiris, V. Fisikopoulos
+  title: Practical volume approximation of high-dimensional convex bodies, applied to modeling portfolio dependencies and financial crises
+  venue: Computational Geometry
+  type: journal
+  url: https://doi.org/10.1016/j.comgeo.2022.101916
+- year: 2023
+  authors: C. Bachelard, A. Chalkis, V. Fisikopoulos, E. Tsigaridas
+  title: Randomized geometric tools for anomaly detection in stock markets
+  venue: AISTATS (PMLR 206)
+  type: conference
+  url: https://proceedings.mlr.press/v206/bachelard23a.html
+- year: 2022
+  authors: A. Chalkis, I.Z. Emiris, V. Fisikopoulos, P. Repouskos, E. Tsigaridas
+  title: Efficient sampling in spectrahedra and volume approximation
+  venue: Linear Algebra and its Applications
+  type: journal
+  url: https://doi.org/10.1016/j.laa.2022.04.002
+- year: 2022
+  authors: A. Chalkis, C. Katsamaki, J. Tonelli-Cueto
+  title: "On the error of random sampling: uniformly distributed random points on parametric curves"
+  venue: ISSAC
+  type: conference
+  url: https://doi.org/10.1145/3476446.3536190
+- year: 2021
+  authors: A. Chalkis, V. Fisikopoulos
+  title: "volesti: volume approximation and sampling for convex polytopes in R"
+  venue: The R Journal
+  type: journal
+  url: https://doi.org/10.32614/RJ-2021-077
+- year: 2021
+  authors: A. Chalkis, E. Christoforou, I.Z. Emiris, T. Dalamagas
+  title: Modeling asset allocations and a new portfolio performance score
+  venue: Digital Finance
+  type: journal
+  url: https://doi.org/10.1007/s42521-021-00040-8
+- year: 2021
+  authors: A. Chalkis, V. Fisikopoulos, E. Tsigaridas, H. Zafeiropoulos
+  title: Geometric algorithms for sampling the flux space of metabolic networks
+  venue: SoCG (LIPIcs)
+  type: conference
+  url: https://doi.org/10.4230/LIPIcs.SoCG.2021.21
+- year: 2020
+  authors: A. Chalkis, V. Fisikopoulos, P. Repouskos, E. Tsigaridas
+  title: Sampling from feasible sets of SDPs and volume approximation
+  venue: ACM Communications in Computer Algebra (ISSAC distinguished poster award)
+  type: conference
+  url: https://hal.inria.fr/hal-02572792
+- year: 2020
+  authors: A. Chalkis, I.Z. Emiris, V. Fisikopoulos
+  title: Practical volume estimation of zonotopes by a new annealing schedule for cooling convex bodies
+  venue: ICMS (LNCS)
+  type: conference
+  url: https://doi.org/10.1007/978-3-030-52200-1_21
+- year: 2018
+  authors: I.Z. Emiris, V. Fisikopoulos
+  title: Practical polytope volume approximation
+  venue: ACM Transactions on Mathematical Software
+  type: journal
+  url: https://doi.org/10.1145/3194656
+- year: 2018
+  authors: L. Calès, A. Chalkis, I.Z. Emiris, V. Fisikopoulos
+  title: Practical volume computation of structured convex bodies, and an application to modeling portfolio dependencies and financial crises
+  venue: SoCG (LIPIcs)
+  type: conference
+  url: https://doi.org/10.4230/LIPIcs.SoCG.2018.19
+- year: 2018
+  authors: E. Anagnostopoulos, I.Z. Emiris, V. Fisikopoulos
+  title: Polytope membership in high dimension
+  venue: ISCO (LNCS)
+  type: conference
+  url: https://doi.org/10.1007/978-3-319-96151-4_4
+- year: 2014
+  authors: I.Z. Emiris, V. Fisikopoulos
+  title: Efficient random-walk methods for approximating polytope volume
+  venue: SoCG (ACM)
+  type: conference
+  url: https://doi.org/10.1145/2582112.2582133

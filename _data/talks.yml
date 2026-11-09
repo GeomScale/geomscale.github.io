@@ -1,0 +1,95 @@
+# Talks shown on /research/, newest first.
+- year: 2026
+  speaker: V. Fisikopoulos
+  title: "dingo: a Python package for metabolic flux sampling"
+  venue: FOSDEM
+  url: https://vissarion.github.io/assets/pdf/dingofosdem2026-260209084939-037d75db.pdf
+- year: 2025
+  speaker: V. Fisikopoulos
+  title: "volesti: sampling efficiently from high dimensional distributions"
+  venue: FOSDEM
+  url: https://vissarion.github.io/assets/pdf/fisikopoulosfosdem2025slides-250311101810-60248b8d.pdf
+- year: 2025
+  speaker: V. Fisikopoulos
+  title: GeomScale (lightning talk)
+  venue: NumFOCUS Summit
+  url: https://vissarion.github.io/assets/pdf/geomscalelightnfsummit25-251029103447-e035b7ea.pdf
+- year: 2025
+  speaker: V. Fisikopoulos
+  title: "Shake and Bake: a GSoC project (lightning talk)"
+  venue: GSoC Mentor Summit
+  url: https://vissarion.github.io/assets/pdf/shakeandbakegsocgeomscale-251029110044-1455d07f.pdf
+- year: 2024
+  speaker: V. Fisikopoulos
+  title: Efficient sampling of constraint spaces in practice
+  venue: PGODays
+  url: https://vissarion.github.io/assets/pdf/vissarionpgodays2024-250311102104-18ea5da2.pdf
+- year: 2021
+  speaker: A. Chalkis
+  title: PhD defense
+  url: https://www.slideshare.net/ApostolosChalkis/the-slides-of-my-phd-defense
+- year: 2021
+  speaker: A. Chalkis
+  title: "dingo: a Python package to analyze metabolic networks"
+  venue: Tweag
+  url: https://www.slideshare.net/ApostolosChalkis/dingo-a-python-package-to-analyzes-metabolic-networks
+- year: 2021
+  speaker: A. Chalkis
+  title: "Sampling spectrahedra: volume approximation and optimization"
+  venue: SIAM Conference on Applied Algebraic Geometry (AG21)
+  url: https://www.slideshare.net/ApostolosChalkis/sampling-spectrahedra-volume-approximation-and-optimization
+- year: 2020
+  speaker: H. Zafeiropoulos
+  title: "Geometric and statistical methods in systems biology: the case of metabolic networks"
+  venue: PyData Global
+  url: https://docs.google.com/presentation/d/1ibXSac0_bQR2n6myYCvIac5M5V0JwLIEzPrhsbSTb20
+  video: https://www.youtube.com/watch?v=zg8KFZ_LbHM
+- year: 2020
+  speaker: M. Papachristou
+  title: Sampling from (truncated) high-dimensional log-concave densities with volesti
+  venue: PyData Global
+  url: http://web.archive.org/web/20201205083943/https://global.pydata.org/talks/144
+- year: 2020
+  speaker: A. Chalkis
+  title: Shock detection and portfolio allocation in cryptocurrency markets
+  venue: 1st International Conference on Economics and FinTech
+  url: https://www.slideshare.net/ApostolosChalkis/shock-detection-and-portfolio-allocation-in-cryptocurrency-markets
+- year: 2020
+  speaker: A. Chalkis
+  title: Practical volume estimation of zonotopes by a new annealing schedule for cooling convex bodies
+  venue: International Congress on Mathematical Software (ICMS)
+- year: 2020
+  speaker: V. Fisikopoulos
+  title: High-dimensional sampling and volume computation in volesti
+  venue: PyData Piraeus; DTAI group, KU Leuven
+  url: https://vissarion.github.io/assets/pdf/kuleuven2020-250311101345-d1cb9734.pdf
+- year: 2020
+  speaker: A. Chalkis
+  title: "volesti: an R package for high-dimensional sampling and integration"
+  venue: eRum, Milan
+  url: https://milano-r.github.io/erum2020program/regular-talks.html#high-dimensional-sampling-and-volume-computation
+- year: 2019
+  speaker: V. Fisikopoulos
+  title: A new practical algorithm for volume estimation using annealing of convex bodies
+  venue: Université libre de Bruxelles
+  url: https://www.slideshare.net/VissarionFisikopoulo/a-new-practical-algorithm-for-volume-estimation-using-annealing-of-convex-bodies
+- year: 2018
+  speaker: A. Chalkis
+  title: Volume computation and financial crises
+  venue: SoCG, Budapest
+  url: https://www.slideshare.net/ApostolosChalkis/presentation-socg
+- year: 2018
+  speaker: V. Fisikopoulos
+  title: Efficient R tools for geometrical statistics
+  venue: GSoC Mentor Summit
+  url: https://www.slideshare.net/VissarionFisikopoulo/efficient-r-tools-for-geometrical-statistics
+- year: 2017
+  speaker: V. Fisikopoulos
+  title: Volume computation and applications
+  venue: Newcastle University
+  url: https://www.slideshare.net/VissarionFisikopoulo/volume-computation-and-applications
+- year: 2014
+  speaker: V. Fisikopoulos
+  title: Efficient random-walk methods for approximating polytope volume
+  venue: SoCG, Japan
+  url: https://www.slideshare.net/VissarionFisikopoulo/efficient-randomwalk-methods-forapproximating-polytope-volume
