@@ -5,7 +5,7 @@ permalink: /software/
 <img src="/assets/images/volesti_logo.jpg" alt="photo" class="float-left" />
 
 The main development is currently performed in
-[volesti](https://github.com/GeomScale/volume_approximation), a generic open source
+[volesti](https://github.com/GeomScale/volesti), a generic open source
 C++ library, with R and Python interfaces. *volesti* implements various algorithms
 for high-dimensional sampling and volume approximation as well as functions
 for copula estimation in financial modelling and metabolic network analysis.
@@ -16,11 +16,11 @@ for copula estimation in financial modelling and metabolic network analysis.
         width="60" height="60" alt="photo" class="float-left" /></a></th>
    <th><a href="https://cran.r-project.org/package=volesti"><img src="/assets/images/Rlogo.png"
         width="60" height="60" alt="photo" class="float-left" /></a></th>
-   <th><a href="https://github.com/GeomScale/volume_approximation/blob/develop/README.md"><img src="/assets/images/doc.png"
+   <th><a href="https://github.com/GeomScale/volesti/blob/develop/README.md"><img src="/assets/images/doc.png"
         width="50" height="50" alt="photo" class="float-left" /></a></th>
    <th><a href="https://vissarion.github.io/tutorials/volesti_tutorial_pydata.html"><img src="/assets/images/tutorial.png"
         width="60" height="60" alt="photo" class="float-left" /></a></th>
-   <th><a href="https://github.com/GeomScale/volume_approximation/blob/develop/CONTRIBUTING.md"><img src="/assets/images/contrib.jpeg"
+   <th><a href="https://github.com/GeomScale/volesti/blob/develop/CONTRIBUTING.md"><img src="/assets/images/contrib.jpeg"
         width="60" height="60" alt="photo" class="float-left" /></a></th>
  </tr>
  <tr>
@@ -31,13 +31,13 @@ for copula estimation in financial modelling and metabolic network analysis.
    <td>Contributing</td>
  </tr>
 </table>
-  <span style="color:white">white text</span>  
+<br>
 
 
 
 <img src="/assets/images/dingo.jpg" width="200" height="200" alt="photo" class="float-left" />
 
-[dingo](https://github.com/GeomScale/dingo) is a python package that analyzes metabolic networks. It relies on high dimensional sampling with Markov Chain Monte Carlo (MCMC) methods and fast optimization methods to analyze the possible states of a metabolic network. To perform MCMC sampling, *dingo* relies on the C++ library [volesti](https://github.com/GeomScale/volume_approximation), which provides several algorithms for sampling convex polytopes. *dingo* also performs two standard methods to analyze the flux space of a metabolic network, namely Flux Balance Analysis and Flux Variability Analysis.  
+[dingo](https://github.com/GeomScale/dingo) is a python package that analyzes metabolic networks. It relies on high dimensional sampling with Markov Chain Monte Carlo (MCMC) methods and fast optimization methods to analyze the possible states of a metabolic network. To perform MCMC sampling, *dingo* relies on the C++ library [volesti](https://github.com/GeomScale/volesti), which provides several algorithms for sampling convex polytopes. *dingo* also performs two standard methods to analyze the flux space of a metabolic network, namely Flux Balance Analysis and Flux Variability Analysis.  
 
 <table width="100%" style="margin: auto;">
  <tr>
@@ -79,7 +79,7 @@ Invariants*, 2020. [WWW](https://arxiv.org/abs/2010.14316)
 *GeomScale* is participating in <A href="https://summerofcode.withgoogle.com/programs/2023/organizations/geomscale">Google Summer of Code 2023</A> as a mentoring organization!  
 
 *GeomScale* was accepted and participated in
-<A href="https://summerofcode.withgoogle.com/archive/2020/organizations/">Google Summer of Code 2020</A>, <A href="https://summerofcode.withgoogle.com/archive/2021/organizations/5291444977270784">Google Summer of Code 2021</A> and <A href="https://summerofcode.withgoogle.com/programs/2022/organizations/geomscale">Google Summer of Code 2022</A> as a mentoring organization. The following projects was successfully completed:
+<A href="https://summerofcode.withgoogle.com/archive/2020/organizations/4606415412396032">Google Summer of Code 2020</A>, <A href="https://summerofcode.withgoogle.com/archive/2021/organizations/5291444977270784">Google Summer of Code 2021</A> and <A href="https://summerofcode.withgoogle.com/programs/2022/organizations/geomscale">Google Summer of Code 2022</A> as a mentoring organization. The following projects were successfully completed:
 
 - [Memory allocation in facet redundancy removal in dingo](https://summerofcode.withgoogle.com/programs/2022/projects/968ibP0I) (GSoC 2022).
 - [Sampling correlation matrices](https://summerofcode.withgoogle.com/programs/2022/projects/biRI2YLT) (GSoC 2022).
@@ -88,23 +88,21 @@ Invariants*, 2020. [WWW](https://arxiv.org/abs/2010.14316)
 - [Counting linear extensions with volume computation](https://summerofcode.withgoogle.com/programs/2022/projects/rpWAufXk) (GSoC 2022).
 - [Automatic differentiation support in volesti](https://summerofcode.withgoogle.com/programs/2022/projects/TD3u7S00) (GSoC 2022).
 
-- [From DNA sequences to metabolic interactions: building a pipeline to extract key metabolic processes](https://summerofcode.withgoogle.com/organizations/5553085268623360/#4835597543276544) (GSoC 2021).
-- [Monte Carlo Integration](https://summerofcode.withgoogle.com/projects/#5929577068625920) (GSoC 2021).
-- [Counting linear extensions](https://summerofcode.withgoogle.com/projects/#6649856422051840) (GSoC 2021).
-- [High dimensional geometric computations with least matrix inequalities](https://summerofcode.withgoogle.com/projects/#5853827133079552) (GSoC 2021).
-- [Parallel Geometric Random Walks with Sparse Numerical Optimizations](https://summerofcode.withgoogle.com/projects/#6606430762696704) (GSoC 2021).
+- [From DNA sequences to metabolic interactions: building a pipeline to extract key metabolic processes](https://summerofcode.withgoogle.com/archive/2021/projects/6407348884602880) (GSoC 2021).
+- [Monte Carlo Integration](https://summerofcode.withgoogle.com/archive/2021/projects/4825133331513344) (GSoC 2021).
+- [Counting linear extensions](https://summerofcode.withgoogle.com/archive/2021/projects/6050504680931328) (GSoC 2021).
+- [High dimensional geometric computations with least matrix inequalities](https://summerofcode.withgoogle.com/archive/2021/projects/6401652449345536) (GSoC 2021).
+- [Parallel Geometric Random Walks with Sparse Numerical Optimizations](https://summerofcode.withgoogle.com/archive/2021/projects/6593875421954048) (GSoC 2021).
 
 - <A href="https://alexmanochis.github.io/GSoC20/">A comparative study of uniform high dimensional samplers</A> (GSoC 2020).
-- <A href="https://papachristoumarios.github.io/2020/07/21/Sampling-from-high-dimensional-truncated-log-
-  concave-densities-with-volesti/">
-  Sampling from High-Dimensional log-concave densities</A> (GSoC 2020).
+- <A href="https://papachristoumarios.github.io/2020/07/21/Sampling-from-high-dimensional-truncated-log-concave-densities-with-volesti/">Sampling from High-Dimensional log-concave densities</A> (GSoC 2020).
 
-- <A href="https://github.com/GeomScale/volume_approximation/pull/93">Optimization and Sum of Squares</A> (GSoC 2020).  
+- <A href="https://github.com/GeomScale/volesti/pull/93">Optimization and Sum of Squares</A> (GSoC 2020).  
 
-Members of GeomScale has successfully participated in GSoC in the past with the
+Members of GeomScale have successfully participated in GSoC in the past with the
 <A href="https://www.r-project.org/">R-project for statistical computing</A>.
 
-- <A href="https://tolischal.github.io/GSoC2018">Efficient R tools for geometrical statistics</A>, 2018.
+- <A href="https://summerofcode.withgoogle.com/archive/2018/projects/5477184021987328">Efficient R tools for geometrical statistics</A>, 2018.
 - <A href="https://panagiotisrep.github.io/gsoc2019/gsoc2019">Sampling Methods for Convex Optimization</A>, 2019.
-- <A href="https://tolischal.github.io/GSoC2018">State-of-the-art geometric random walks in R</A>, 2019.
+- <A href="https://summerofcode.withgoogle.com/archive/2019/projects/4593910741991424">State-of-the-art geometric random walks in R</A>, 2019.
 
