@@ -1,0 +1,46 @@
+# Content of the home page (index.html).
+tagline: Open-source software for sampling and volume computation in high dimensions.
+intro: >-
+  Many problems have not one answer but a space of feasible answers: every flux distribution a cell
+  can sustain, every portfolio that meets its constraints. GeomScale builds fast, tested, open
+  software that explores these spaces, drawing random samples from them and measuring their size,
+  in thousands of dimensions.
+
+# Update the numbers and `stats_date` together.
+stats_date: November 2026
+stats:
+  - value: "190+"
+    label: GitHub stars (volesti)
+    url: https://github.com/GeomScale/volesti
+  - value: "33k+"
+    label: CRAN downloads
+    url: https://cran.r-project.org/package=volesti
+  - value: gsoc            # computed from _data/gsoc.yml
+    label: GSoC projects since 2020
+    url: /community/#google-summer-of-code
+  - value: "4"
+    label: languages (C++, R, Python, Octave)
+    url: /software/
+
+applications:
+  - field: Systems biology
+    text: flux sampling of genome-scale metabolic networks
+    url: https://doi.org/10.1093/bioadv/vbae037
+  - field: Finance
+    text: volume-based indicators of market crises; portfolio analysis
+    url: https://doi.org/10.1016/j.comgeo.2022.101916
+  - field: AI and formal reasoning
+    text: weighted model integration and volume of SMT formulas
+    url: /software/#used-by
+  - field: Statistics
+    text: sampling truncated log-concave distributions
+    url: https://doi.org/10.1145/3589505
+
+# NumFOCUS is in the site footer on every page.
+supporters:
+  - name: NLnet foundation
+    logo: https://nlnet.nl/logo/banner.svg
+    url: https://nlnet.nl/project/Ovolesti/
+  - name: Google Summer of Code
+    logo: /assets/images/GSoC.png
+    url: https://summerofcode.withgoogle.com/

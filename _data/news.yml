@@ -1,0 +1,16 @@
+# News on the home page, newest first. The home page shows the first three.
+- date: 2026-11
+  text: "Google Summer of Code 2026: all four GeomScale projects completed."
+  url: /community/#google-summer-of-code
+- date: 2026-10
+  text: "ovolesti v0.0.1: first release of the GNU Octave package."
+  url: https://github.com/GeomScale/ovolesti/releases/tag/v0.0.1
+- date: 2026-06
+  text: "NLnet NGI0 Commons Fund grant for ovolesti."
+  url: https://nlnet.nl/project/Ovolesti/
+- date: 2026-02
+  text: "dingo talk at FOSDEM 2026."
+  url: https://vissarion.github.io/assets/pdf/dingofosdem2026-260209084939-037d75db.pdf
+- date: 2025-04
+  text: "volesti v1.2.0 released; volesti paper published in JOSS."
+  url: https://doi.org/10.21105/joss.07886

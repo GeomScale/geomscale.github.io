@@ -1,0 +1,5 @@
+<ul class="gs-list">
+{% for t in site.data.talks %}
+  <li><span class="gs-muted">{{ t.year }}</span> {% if t.url %}<a href="{{ t.url }}">{{ t.title }}</a>{% else %}{{ t.title }}{% endif %}{% if t.video %} (<a href="{{ t.video }}">video</a>){% endif %}. {{ t.speaker }}{% if t.venue %}, {{ t.venue }}{% endif %}.</li>
+{% endfor %}
+</ul>

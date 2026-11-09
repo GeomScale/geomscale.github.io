@@ -1,14 +1,10 @@
 # main links
 main:
-  - title: "About"
-    url: /about/
   - title: "Software"
     url: /software/
-  - title: "People"
-    url: /people/
-  - title: "Talks"
-    url: /talks/
-  - title: "Publications"
-    url: /publications/
+  - title: "Research"
+    url: /research/
+  - title: "Community"
+    url: /community/
   - title: "Blog"
     url: /posts/

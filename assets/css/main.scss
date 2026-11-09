@@ -22,3 +22,71 @@ html {
     font-size: 18px; // change to whatever
   }
 }
+
+/* GeomScale content blocks (_includes/gs/) */
+.gs-muted { color: $gray; font-size: $type-size-6; }
+
+.gs-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(16em, 1fr));
+  gap: 1em;
+  margin-bottom: 2em;
+}
+.gs-card {
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+  padding: 0.8em 1em;
+  font-size: $type-size-6;
+  p { margin: 0.4em 0; }
+}
+.gs-card__title { margin: 0; font-size: $type-size-4; }
+.gs-card__meta { color: $gray; }
+.gs-card__install { margin: 0.5em 0; padding: 0.4em 0.6em; font-size: $type-size-7; white-space: pre-wrap; word-break: break-all; }
+.gs-card__links { font-weight: bold; }
+
+.gs-list { padding-left: 1.2em; li { margin-bottom: 0.3em; } }
+.gs-year { margin-top: 1em; }
+
+.gs-pkg { margin: 1em 0 0.3em; font-size: $type-size-5; }
+.gs-contrib {
+  list-style: none; padding-left: 0; margin-top: 0;
+  li { display: flex; flex-wrap: wrap; gap: 0 1em; margin-bottom: 0.3em; }
+}
+.gs-contrib__name { flex: 0 0 15em; }
+.gs-contrib__what { flex: 1 1 15em; color: $gray; font-size: $type-size-6; }
+
+.gs-gsoc { margin-bottom: 0.5em; summary { cursor: pointer; } }
+.gs-logos img { height: 3.5em; width: auto; margin-right: 1.5em; vertical-align: middle; }
+
+/* Home page */
+.gs-home .page__title { display: none; }
+.gs-center { text-align: center; }
+.gs-hero {
+  text-align: center;
+  margin: 1em 0 2em;
+  img { max-width: 22em; width: 80%; }
+}
+.gs-hero__tagline { font-size: $type-size-4; font-weight: bold; margin-top: 1em; }
+.gs-hero__intro { max-width: 36em; margin: 0 auto 1.2em; color: $gray; font-size: $type-size-5; }
+
+.gs-stats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1em;
+  margin-top: 1em;
+  @include breakpoint($medium) { grid-template-columns: repeat(4, 1fr); }
+}
+.gs-stat {
+  display: flex; flex-direction: column; align-items: center; text-align: center;
+  padding: 0.8em 0.5em;
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+  text-decoration: none;
+}
+.gs-stat__value { font-size: $type-size-2; font-weight: bold; line-height: 1.2; }
+.gs-stat__label { font-size: $type-size-6; color: $gray; }
+
+.gs-inline {
+  list-style: none; padding-left: 0;
+  display: flex; flex-wrap: wrap; gap: 0.5em 1.5em;
+}
