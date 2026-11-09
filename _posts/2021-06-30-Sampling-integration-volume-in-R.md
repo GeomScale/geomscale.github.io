@@ -1,5 +1,6 @@
 ---
 layout: single
+math: true
 title: "Sampling, integration and volume computation in R"
 date: 2021-07-06
 author: Apostolos Chalkis, Vissarion Fisikopoulos
@@ -10,9 +11,6 @@ share: true
 related: true
 hidden: false
 ---
-
-
-# Sampling, integration and volume computation in R
 
 In this blog post we will compare several R packages with `volesti`.
 [`volesti`](https://github.com/GeomScale/volume_approximation)  is a C++ library
@@ -87,7 +85,7 @@ sampling algorithm, is the number of independent samples that it is equivalent t
 For more information about ESS you can read this
 [paper](https://si.biostat.washington.edu/sites/default/files/modules/Geyer-Introduction%20to%20markov%20chain%20Monte%20Carlo_0.pdf).
 To estimate the effective sample size we use the package
-[`coda`]([https://CRAN.R-project.org/package=coda](https://cran.r-project.org/package=coda)).
+[`coda`](https://cran.r-project.org/package=coda).
 
 The output of the above script,
 
