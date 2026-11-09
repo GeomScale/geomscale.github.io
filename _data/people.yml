@@ -93,7 +93,9 @@ mentors:
   - name: Vangelis Anagnostopoulos
 
 groups:
-  - name: ErGA lab, National and Kapodistrian University of Athens
+  - name: ErGA lab
+    where: National and Kapodistrian University of Athens
     url: http://erga.di.uoa.gr
-  - name: Ouragan team, Inria Paris
+  - name: Ouragan
+    where: Inria Paris
     url: https://team.inria.fr/ouragan
