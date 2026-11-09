@@ -1,7 +1,50 @@
 ---
-author_profile: true
+layout: single
+author_profile: false
+title: GeomScale
+classes: gs-home
+redirect_from:
+  - /about/
 ---
-<br><br>
-<img src="/assets/images/logo.png" alt="GeomScale">
-<br><br>
-<p align=center>Open-source development of scalable algorithms for geometric statistics</p>
+{% assign h = site.data.home %}
+<div class="gs-hero">
+  <img src="/assets/images/logo.png" alt="GeomScale">
+  <p class="gs-hero__tagline">{{ h.tagline }}</p>
+  <p class="gs-hero__intro">{{ h.intro }}</p>
+  <p>
+    <a href="/software/" class="btn btn--primary">Software</a>
+    <a href="https://github.com/GeomScale" class="btn btn--inverse">GitHub</a>
+  </p>
+</div>
+
+{% assign n_gsoc = 0 %}{% for y in site.data.gsoc %}{% unless y.org %}{% assign n_gsoc = n_gsoc | plus: y.projects.size %}{% endunless %}{% endfor %}
+<div class="gs-stats">
+{% for s in h.stats %}
+  <a class="gs-stat" href="{{ s.url }}">
+    <span class="gs-stat__value">{% if s.value == "gsoc" %}{{ n_gsoc }}{% else %}{{ s.value }}{% endif %}</span>
+    <span class="gs-stat__label">{{ s.label }}</span>
+  </a>
+{% endfor %}
+</div>
+<p class="gs-muted gs-center">As of {{ h.stats_date }}.</p>
+
+<h2>Software</h2>
+<ul class="gs-inline">
+{% for p in site.data.software %}  <li><a href="/software/">{{ p.name }}</a> <span class="gs-muted">{{ p.lang }}</span></li>
+{% endfor %}</ul>
+
+<h2>Used for</h2>
+<ul class="gs-list">
+{% for a in h.applications %}  <li><strong>{{ a.field }}</strong>: <a href="{{ a.url }}">{{ a.text }}</a></li>
+{% endfor %}</ul>
+
+<h2>News</h2>
+<ul class="gs-list">
+{% for n in site.data.news limit: 3 %}  <li><span class="gs-muted">{{ n.date }}</span> <a href="{{ n.url }}">{{ n.text }}</a></li>
+{% endfor %}</ul>
+<p><a href="/posts/">More on the blog</a></p>
+
+<h2>Supported by</h2>
+<p class="gs-logos">
+{% for s in h.supporters %}  <a href="{{ s.url }}"><img src="{{ s.logo }}" alt="{{ s.name }}"></a>
+{% endfor %}</p>

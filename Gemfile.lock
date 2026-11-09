@@ -201,7 +201,6 @@ DEPENDENCIES
   jekyll-feed
   jekyll-gist
   jekyll-include-cache
-  jekyll-paginate
   jekyll-redirect-from
   jekyll-sitemap
   jekyll-titles-from-headings
