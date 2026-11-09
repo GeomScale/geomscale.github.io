@@ -1,5 +1,6 @@
 ---
 layout: single
+math: true
 title: "Searching for COVID-19 treatments using metabolic networks"
 date: 2021-09-06
 author: Apostolos Chalkis

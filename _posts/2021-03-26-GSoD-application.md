@@ -11,9 +11,6 @@ related: true
 hidden: false
 ---
 
-
-# Create the GeomScale Reference Documentation
-
 > Open call for documentation development
 
 ## About the organization

@@ -1,0 +1,55 @@
+# Build the site with Jekyll, check internal links, and deploy to GitHub Pages.
+# Pull requests are built and checked only; pushes to gh-pages are also deployed.
+# Requires Settings > Pages > Build and deployment > Source = "GitHub Actions".
+name: Build and deploy site
+
+on:
+  push:
+    branches: [gh-pages]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+          bundler-cache: true
+
+      - name: Build
+        run: bundle exec jekyll build
+        env:
+          JEKYLL_ENV: production
+
+      - name: Check internal links
+        run: |
+          gem install --no-document html-proofer -v "~> 5.0"
+          htmlproofer _site --disable-external --no-enforce-https \
+            --ignore-missing-alt --allow-missing-href --ignore-urls "/^data:/"
+
+      - uses: actions/upload-pages-artifact@v5
+        if: github.event_name != 'pull_request'
+
+  deploy:
+    if: github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    concurrency:
+      group: pages
+      cancel-in-progress: false
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5

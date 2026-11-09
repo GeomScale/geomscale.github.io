@@ -1,5 +1,6 @@
 ---
 layout: single
+math: true
 title: "Sampling from high-dimensional (truncated) log-concave densities with Volesti: A Gentle Introduction"
 date: 2020-07-21 17:00:00 +0200
 author: Marios Papachristou

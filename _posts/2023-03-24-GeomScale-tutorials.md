@@ -11,9 +11,6 @@ related: true
 hidden: false
 ---
 
-
-# Create GeomScale Tutorials
-
 > Open call for documentation development
 
 ## About the organization
