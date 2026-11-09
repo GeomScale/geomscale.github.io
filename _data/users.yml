@@ -41,6 +41,13 @@
       what: sampling of the feasible operating space
       url: https://doi.org/10.1016/j.epsr.2020.106614
       ref: Venzke, Molzahn, Chatzivasileiadis, Electric Power Systems Research 2021
+- field: Transportation
+  items:
+    - name: Full-scenario AV safety evaluation
+      what: safe-scenario polytope volumes and Monte Carlo safety evaluation (volesti SOB and CG)
+      url: https://arxiv.org/abs/2506.09182
+      ref: Zhou, Ma, Shen, Liang, Li, Transportation Research Part C 2026
+      ref_url: https://doi.org/10.1016/j.trc.2025.105485
 - field: Ecology and metabolism
   items:
     - name: samplelim
