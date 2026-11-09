@@ -13,7 +13,7 @@ permalink: /people/
 - <A HREF="https://www.researchgate.net/profile/Cyril-Bachelard">Cyril Bachelard</A>
 - <A HREF="https://alexmanochis.github.io/aboutme/">Alexandros Manochis</A>
 - <A HREF="https://pedrozudo.github.io/">Pedro Zuidberg Dos Martires</A>
-- <A HREF="http://personal.lse.ac.uk/natura/">Bento Natura</A>
+- Bento Natura
 - <A HREF="https://papachristoumarios.github.io">Marios Papachristou</A>
 - <A HREF="https://panagiotisrep.github.io/">Panagiotis Repouskos</A>
 - <A HREF="https://hariszaf.github.io">Haris Zafeiropoulos</A>

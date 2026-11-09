@@ -44,6 +44,6 @@ Proceedings of 30th ACM Annual Symposium on Computational Geometry, 2014.
 
 - A. Chalkis, E. Christoforou, I.Z. Emiris, T. Dalamagas, <A href="https://link.springer.com/article/10.1007/s42521-021-00040-8">Modeling asset allocations and a new portfolio performance score</A>, Digital Finance, Springer, 2021.  
 
-- I.Z.Emiris, V.Fisikopoulos - <a href="https://dl.acm.org/authorize?N680533">Practical polytope volume approximation</a>.
+- I.Z.Emiris, V.Fisikopoulos - <a href="https://doi.org/10.1145/3194656">Practical polytope volume approximation</a>.
 ACM Transactions on Mathematical Software, vol 44, issue 4, 2018.  
 

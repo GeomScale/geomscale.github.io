@@ -4,7 +4,7 @@ permalink: /about/
 
 <img width="40%" src="/assets/images/logo.png">
 
-## What we aim ?
+## What we aim for
 
 *GeomScale* is a research and development project that delivers open source code
 for state-of-the-art algorithms at the intersection of data science, optimization,
@@ -26,11 +26,11 @@ interdisciplinary, and open community in high dimensional geometrical
 and statistical computing.
 
 <figure>
-  <img src="/assets/images/crisis.png" alt="my alt text"/>
+  <img src="/assets/images/crisis.png" alt="Financial crisis indicator computed with volesti"/>
   <figcaption>
   Financial crisis prediction computed with
-  <a href="https://github.com/GeomScale/volume_approximation">volesti package</a> using
-  a public <a href="https://stanford.edu/class/ee103/portfolio.html">dataset</a>
+  <a href="https://github.com/GeomScale/volesti">volesti package</a> using
+  a public <a href="http://web.archive.org/web/20200706234626/http://stanford.edu:80/class/ee103/portfolio.html">dataset</a>
   that covers 10 years, from January 2006 to December 2016, and comprises a set of
   52 popular exchange traded funds (ETFs) and the US central bank (FED) rate of
   return.
